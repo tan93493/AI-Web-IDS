@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask App</title>
+</head>
+<body>
+<nav>
+  <a href="{{ url_for('login') }}">Login</a> |
+  <a href="{{ url_for('signup') }}">Signup</a> |
+  <a href="{{ url_for('search') }}">Search</a> |
+  <a href="{{ url_for('admin') }}">Admin</a> |
+  <a href="{{ url_for('logout') }}">Logout</a>
+</nav>
+<hr>
+{% block content %}
+{% endblock %}
+</body>
+</html>
