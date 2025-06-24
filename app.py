@@ -1,5 +1,6 @@
-import numpy as np
 from flask import Flask, render_template, request, redirect, url_for, session, g, send_file
+from tensorflow.keras.models import load_model
+import numpy as np
 import datetime
 import os
 import pandas as pd
@@ -10,8 +11,7 @@ import io
 import base64
 import joblib
 import sqlite3
-from tensorflow.keras.models import load_model
-from flask import send_file, request
+
 import tempfile
 
 app = Flask(__name__)
