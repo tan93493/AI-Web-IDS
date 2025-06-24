@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Admin Dashboard</h2>
+<p>Chỉ admin mới được xem trang này.</p>
+
+<h3>🔢 Tổng số truy cập: {{ total_requests }}</h3>
+
+<h3>📊 Biểu đồ truy cập theo method:</h3>
+<img src="data:image/png;base64,{{ chart_url }}" alt="Chart">
+
+<h3>🧠 AI Phân Tích hành vi truy cập (log gần nhất):</h3>
+{{ log_table | safe }}
+<form method="GET" action="{{ url_for('export_logs') }}">
+  <label for="filetype">Chọn định dạng xuất:</label>
+  <select name="filetype" id="filetype">
+    <option value="csv">CSV</option>
+    <option value="excel">Excel (.xlsx)</option>
+  </select>
+  <button type="submit">Xuất logs</button>
+</form>
+{% endblock %}
