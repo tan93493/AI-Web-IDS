@@ -2,15 +2,14 @@
 {% block content %}
 <section>
     <div class="container px-4 px-lg-5">
-        <h2 class="fw-bolder text-center mb-5">Kết quả tìm kiếm cho: '{{ query }}'</h2>
+        <h2 class="fw-bolder text-center mb-5">Search results for: '{{ query }}'</h2>
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {% for product in products %}
                 {% include '_product_card.html' %}
             {% endfor %}
-            <!-- Hiển thị thông báo nếu không tìm thấy sản phẩm nào -->
             {% if not products %}
             <div class="col-12 text-center">
-                <p class="lead">Không tìm thấy sản phẩm nào bạn cần tìm.</p>
+                <p class="lead">No products were found for your search.</p>
             </div>
             {% endif %}
         </div>

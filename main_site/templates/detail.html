@@ -1,5 +1,5 @@
 {% extends 'main.html' %} 
-{% block title %}{{ product.name }} - Chi tiết sản phẩm{% endblock %}
+{% block title %}{{ product.name }} - Product details{% endblock %}
 {% block content %}
 <div class="container">
     <div class="card">
@@ -37,9 +37,9 @@
                         <div class="d-flex mt-4">
                             <button type="button" data-product="{{ product.id }}" data-action="add" data-url="{{ url_for('orders.update_item') }}" class="btn btn-success flex-shrink-0 me-3 update-cart">
                                 <i class="bi-cart-fill me-1"></i>
-                                Thêm vào giỏ
+                                Add to cart
                             </button>
-                            <a href="javascript:history.back()" class="btn btn-outline-dark">Quay lại</a>
+                            <a href="javascript:history.back()" class="btn btn-outline-dark">Back</a>
                         </div>
 
                     </div>

@@ -1,5 +1,5 @@
 {% extends 'main.html' %}
-{% block title %}Đăng nhập - TECH STORE{% endblock %}
+{% block title %}Sign In - TECH STORE{% endblock %}
 
 {% block content %}
 <section class="vh-100 bg-image" style="background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg'); background-size: cover; background-position: center;">
@@ -9,7 +9,7 @@
                 <div class="col-12 col-md-9 col-lg-7 col-xl-6">
                     <div class="card" style="border-radius: 15px;">
                         <div class="card-body p-5">
-                            <h2 class="text-uppercase text-center mb-5">Đăng nhập tài khoản</h2>
+                            <h2 class="text-uppercase text-center mb-5">Login account</h2>
                             
                             {% with messages = get_flashed_messages(with_categories=true) %}
                                 {% if messages %}
@@ -41,8 +41,8 @@
                                     {{ form.submit(class="btn btn-outline-dark btn-block btn-lg gradient-custom-4") }}
                                 </div>
 
-                                <p class="text-center text-muted mt-5 mb-0">Chưa có tài khoản? 
-                                    <a href="{{ url_for('auth.signup') }}" class="fw-bold text-body"><u>Đăng ký tại đây</u></a>
+                                <p class="text-center text-muted mt-5 mb-0">Don't have an account? 
+                                    <a href="{{ url_for('auth.signup') }}" class="fw-bold text-body"><u>Register here</u></a>
                                 </p>
                             </form>
 

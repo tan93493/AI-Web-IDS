@@ -65,11 +65,11 @@
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end rounded-3" aria-labelledby="navbarDropdownUser">
                                 {% if session.username %}
-                                <li><a class="dropdown-item" href="{{ url_for('orders.my_orders') }}">Đơn hàng của tôi</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('orders.my_orders') }}">My order</a></li>
                                     <li><a class="dropdown-item" href="{{ url_for('auth.logout') }}">Logout</a></li>
                                 {% else %}
-                                    <li><a class="dropdown-item" href="{{ url_for('auth.signup') }}">Đăng ký</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('auth.login') }}">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('auth.signup') }}">Sign Up</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('auth.login') }}">Sign In</a></li>
                                 {% endif %}
                             </ul>
                         </div>

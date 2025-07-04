@@ -1,15 +1,14 @@
 {% extends 'admin/master.html' %}{% block body %}
 <div class="container-fluid"> 
-    <h2>Admin Dashboard - Phân tích truy cập</h2>
-    <p>Chào mừng tới trang quản trị phát hiện xâm nhập.</p>
+    <h2>Access Analysis</h2>
     <div class="card my-4">
         <div class="card-body">
-            <h3>🔢 Tổng số truy cập: {{ total_requests }}</h3>
+            <h3>Total visits: {{ total_requests }}</h3>
         </div>
     </div>  
     <div class="card my-4">
         <div class="card-header">
-            📊 Biểu đồ truy cập theo phương thức:
+            Access graph by method:
         </div>
         <div class="card-body text-center">
             <img src="data:image/png;base64,{{ chart_url }}" alt="Chart" class="img-fluid">
@@ -18,7 +17,7 @@
 
     <div class="card my-4">
         <div class="card-header">
-            🧠 AI Phân Tích hành vi truy cập (10 log gần nhất):
+            AI analyzes access behavior (last 10 logs):
         </div>
         <div class="card-body table-responsive">
             {{ log_table | safe }}
@@ -27,13 +26,13 @@
             <!-- SỬA url_for('export_logs') thành url_for('admin.export_logs') -->
             <form method="GET" action="{{ url_for('admin.export_logs') }}" class="form-inline">
                 <div class="form-group mb-2">
-                    <label for="filetype" class="mr-2">Chọn định dạng xuất:</label>
+                    <label for="filetype" class="mr-2">Select export format:</label>
                     <select name="filetype" id="filetype" class="form-control mr-2">
                         <option value="csv">CSV</option>
                         <option value="excel">Excel (.xlsx)</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Xuất logs</button>
+                <button type="submit" class="btn btn-primary mb-2">Export logs</button>
             </form>
         </div>
     </div>

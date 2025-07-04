@@ -69,7 +69,7 @@ def checkout():
     items, order = get_cart_data()
     if not items:
         flash('Giỏ hàng của bạn đang trống.', 'info')
-        return redirect(url_for('order.cart'))
+        return redirect(url_for('orders.cart'))
     user = User.query.filter_by(username=session['username']).first()
     if not user:
         flash('Lỗi: Không tìm thấy người dùng.', 'danger')

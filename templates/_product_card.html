@@ -4,7 +4,7 @@
         <div class="card-body p-4">
             <div class="text-center">
                 <h5 class="fw-bolder">{{ product.name }}</h5>
-                <strong>{{ product.price | round(2) | string | replace('.', ',') }} VNĐ</strong>
+                <strong>$ {{ product.price | round(2) | string | replace('.', ',') }}</strong>
             </div>
         </div>
         <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
