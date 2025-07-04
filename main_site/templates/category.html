@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+{% block content %}
+<section>
+    <h2 class="fw-bolder text-center mb-5">{{ active_category }} Category</h2> 
+    <div class="container px-4 px-lg-5 mt-1">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            {% for product in products %}
+                {% include '_product_card.html' %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

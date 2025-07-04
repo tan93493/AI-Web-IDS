@@ -1,0 +1,66 @@
+{% extends 'main.html' %}
+{% block title %}Đăng ký - TECH STORE{% endblock %}
+
+{% block content %}
+<section class="vh-100 bg-image" style="background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg'); background-size: cover; background-position: center;">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-5">Tạo tài khoản mới</h2>
+
+                            <form method="POST" action="{{ url_for('auth.signup') }}">
+                                
+                                {{ form.hidden_tag() }}
+
+                                <div class="form-outline mb-4">
+                                    {{ form.username.label(class="form-label") }}
+                                    {{ form.username(class="form-control form-control-lg", id="formUsername") }}
+                                    {% for error in form.username.errors %}
+                                        <div class="text-danger mt-1"><small>{{ error }}</small></div>
+                                    {% endfor %}
+                                </div>
+                                
+                                <div class="form-outline mb-4">
+                                    {{ form.email.label(class="form-label") }}
+                                    {{ form.email(class="form-control form-control-lg", id="formEmail") }}
+                                    {% for error in form.email.errors %}
+                                        <div class="text-danger mt-1"><small>{{ error }}</small></div>
+                                    {% endfor %}
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    {{ form.password.label(class="form-label") }}
+                                    {{ form.password(class="form-control form-control-lg", id="formPassword") }}
+                                    {% for error in form.password.errors %}
+                                        <div class="text-danger mt-1"><small>{{ error }}</small></div>
+                                    {% endfor %}
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    {{ form.confirm_password.label(class="form-label") }}
+                                    {{ form.confirm_password(class="form-control form-control-lg", id="formPassword2") }}
+                                    {% for error in form.confirm_password.errors %}
+                                        <div class="text-danger mt-1"><small>{{ error }}</small></div>
+                                    {% endfor %}
+                                </div>
+                                
+                                <div class="d-flex justify-content-center">
+                                    {{ form.submit(class="btn btn-outline-dark btn-block btn-lg gradient-custom-4") }}
+                                </div>
+
+                                <p class="text-center text-muted mt-5 mb-0">Đã có tài khoản? 
+                                    <a href="{{ url_for('auth.login') }}" class="fw-bold text-body"><u>Đăng nhập tại đây</u></a>
+                                </p>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

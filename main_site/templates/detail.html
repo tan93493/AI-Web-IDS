@@ -1,0 +1,51 @@
+{% extends 'main.html' %} 
+{% block title %}{{ product.name }} - Chi tiết sản phẩm{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="text-center">
+                        {% if product.image_url %}
+                            <img src="{{ product.image_url }}" class="img-fluid rounded-3" alt="{{ product.name }}">
+                        {% else %}
+                            <img src="{{ url_for('static', filename='images/placeholder.png') }}" class="img-fluid rounded-3" alt="No image available">
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="p-4">
+                        <div class="mb-2">
+                            {% for cat in product.categories %}
+                                <span class="badge bg-secondary">{{ cat.name }}</span>
+                            {% endfor %}
+                        </div>
+
+                        <h2 class="display-5 fw-bolder">{{ product.name }}</h2>
+                        
+                        <div class="fs-5 mb-4">
+                            <span>${{ product.price | round(2) }}</span>
+                        </div>
+
+                        <p class="lead">{{ product.detail | safe }}</p>
+
+                        <hr>
+                        
+                        <div class="d-flex mt-4">
+                            <button type="button" data-product="{{ product.id }}" data-action="add" data-url="{{ url_for('orders.update_item') }}" class="btn btn-success flex-shrink-0 me-3 update-cart">
+                                <i class="bi-cart-fill me-1"></i>
+                                Thêm vào giỏ
+                            </button>
+                            <a href="javascript:history.back()" class="btn btn-outline-dark">Quay lại</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
