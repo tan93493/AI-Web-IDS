@@ -1,5 +1,5 @@
 # order_site/routes.py
-from flask import render_template, request, session, jsonify, redirect, url_for, flash
+from flask import render_template, request, session, jsonify, redirect, url_for
 from . import order_bp
 from extensions import db
 from models import Product, Order, OrderItem, User, CheckOut
@@ -63,21 +63,17 @@ def update_item():
 @order_bp.route('/checkout', methods=['GET', 'POST'])
 def checkout():
     if 'username' not in session:
-        flash('Vui lòng đăng nhập để thanh toán.', 'warning')
         return redirect(url_for('auth.login'))
     form = CheckoutForm()
     items, order = get_cart_data()
     if not items:
-        flash('Giỏ hàng của bạn đang trống.', 'info')
         return redirect(url_for('orders.cart'))
     user = User.query.filter_by(username=session['username']).first()
     if not user:
-        flash('Lỗi: Không tìm thấy người dùng.', 'danger')
         return redirect(url_for('main.home'))
     if form.validate_on_submit():
         order_to_process = Order.query.filter_by(user_id=user.id, status='pending').first()
         if not order_to_process:
-            flash('Đã có lỗi xảy ra với giỏ hàng của bạn. Vui lòng thử lại.', 'danger')
             return redirect(url_for('order.cart'))
         new_checkout_info = CheckOut(
             name=form.name.data,
@@ -90,18 +86,15 @@ def checkout():
         order_to_process.checkout_info = new_checkout_info
         try:
             db.session.commit()
-            flash('Bạn đã đặt hàng thành công!', 'success')
             return redirect(url_for('main.home'))
         except Exception as e:
             db.session.rollback()
-            flash(f'Đã xảy ra lỗi khi xử lý đơn hàng: {e}', 'danger')
             return redirect(url_for('order.checkout'))
     return render_template('checkout.html', items=items, order=order, form=form)
 
 @order_bp.route('/my-orders')
 def my_orders():
     if 'username' not in session:
-        flash('Vui lòng đăng nhập để xem lịch sử đơn hàng.', 'warning')
         return redirect(url_for('auth.login'))
     user = User.query.filter_by(username=session['username']).first_or_404()
     orders = Order.query.filter_by(user_id=user.id).order_by(Order.date_ordered.desc()).all()

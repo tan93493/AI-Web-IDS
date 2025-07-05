@@ -11,16 +11,6 @@
                         <div class="card-body p-5">
                             <h2 class="text-uppercase text-center mb-5">Login account</h2>
                             
-                            {% with messages = get_flashed_messages(with_categories=true) %}
-                                {% if messages %}
-                                    {% for category, message in messages %}
-                                        <div class="alert alert-{{ category }} text-center" role="alert">
-                                            {{ message }}
-                                        </div>
-                                    {% endfor %}
-                                {% endif %}
-                            {% endwith %}
-                            
                             <form method="POST" action="{{ url_for('auth.login') }}">
                                 {{ form.hidden_tag() }} <div class="form-outline mb-4">
                                     {{ form.username.label(class="form-label") }}

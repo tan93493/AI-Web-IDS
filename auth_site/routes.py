@@ -1,5 +1,5 @@
 # auth_site/routes.py
-from flask import render_template, request, redirect, url_for, session, flash
+from flask import render_template, request, redirect, url_for, session
 from . import auth_bp 
 from models import User
 from forms import RegistrationForm, LoginForm
@@ -15,13 +15,10 @@ def login():
             session['username'] = user.username
             session['user_id'] = user.id
             session['is_admin'] = user.is_admin           
-            flash('Đăng nhập thành công!', 'success')
             if user.is_admin:
                 return redirect(url_for('admin.index'))
             else:
                 return redirect(url_for('main.home'))
-        else:
-            flash('Tên đăng nhập hoặc mật khẩu không đúng.', 'danger')
     return render_template('login.html', form=form)
 
 @auth_bp.route('/signup', methods=['GET', 'POST'])
@@ -37,7 +34,6 @@ def signup():
         new_user.set_password(form.password.data)
         db.session.add(new_user)
         db.session.commit()
-        flash(f'Tài khoản {form.username.data} đã được tạo thành công!', 'success')
         return redirect(url_for('auth.login'))
     return render_template('register.html', form=form)
 
@@ -45,5 +41,4 @@ def signup():
 @auth_bp.route('/logout')
 def logout():
     session.pop('username', None)
-    flash('Bạn đã đăng xuất thành công.', 'success')
     return redirect(url_for('main.home'))

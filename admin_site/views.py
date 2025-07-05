@@ -1,7 +1,7 @@
 # admin_site/views.py
 from flask_admin.contrib.sqla import ModelView
 from models import Category, Log
-from flask import session, redirect, url_for, flash, render_template, request, send_file
+from flask import session, redirect, url_for, render_template, request, send_file
 from wtforms.fields import PasswordField
 from flask_admin import AdminIndexView, expose
 import pandas as pd
@@ -19,7 +19,6 @@ class ProtectedModelView(ModelView):
         return session.get('is_admin') is True
 
     def inaccessible_callback(self, name, **kwargs):
-        flash('Bạn không có quyền truy cập trang này.', 'danger')
         return redirect(url_for('main.home'))
     
 class UserAdminView(ProtectedModelView):
@@ -71,7 +70,6 @@ class MyAdminIndexView(AdminIndexView):
 
     def inaccessible_callback(self, name, **kwargs):
         """Nếu không phải admin, chuyển hướng về trang chủ."""
-        flash('Bạn không có quyền truy cập trang này.', 'danger')
         return redirect(url_for('main.home'))
     @expose('/')
     def index(self):
