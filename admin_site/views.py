@@ -17,15 +17,21 @@ import base64
 def run_ai_predictions(logs):
     try:
         model = load_model('model/ai_ids_model.h5')
-        vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
+        preprocessor = joblib.load('model/preprocessor.pkl')
     except FileNotFoundError:
         return pd.DataFrame()
     if not logs:
         return pd.DataFrame()
-    df = pd.DataFrame([{'id': log.id, 'path': log.path, 'payload': log.payload} for log in logs])
-    df['text_features'] = df['path'].fillna('') + ' ' + df['payload'].fillna('')
-    X_new = vectorizer.transform(df['text_features'])
-    X_new_dense = X_new.toarray()
+    df = pd.DataFrame([
+        {'id': log.id, 'method': log.method, 'path': log.path, 'payload': log.payload} 
+        for log in logs
+    ])
+    df['payload'] = df['payload'].fillna('')
+    df['path'] = df['path'].fillna('unknown')
+    df['method'] = df['method'].fillna('unknown')
+    X_new = df[['method', 'path', 'payload']]
+    X_new_processed = preprocessor.transform(X_new)
+    X_new_dense = X_new_processed.toarray()
     predictions = model.predict(X_new_dense, verbose=0)
     df['AI_Phân_Tích'] = np.where(predictions.flatten() > 0.5, '❌ Bất thường', '✅ Bình thường')
     return df[['id', 'AI_Phân_Tích']].set_index('id')
@@ -76,7 +82,6 @@ class LogAdminView(ProtectedModelView):
     can_edit = False
     can_create = False
     can_delete = True
-    
     column_list = ['timestamp', 'ip', 'method', 'path', 'payload', 'ai_analysis']
     column_labels = {'ai_analysis': 'AI Phân Tích'}
 
@@ -101,7 +106,6 @@ def parse_log_data():
 class MyAdminIndexView(AdminIndexView):
     def is_accessible(self):
         return session.get('is_admin') is True
-
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for('main.home'))
 
@@ -110,9 +114,9 @@ class MyAdminIndexView(AdminIndexView):
         total_requests = Log.query.count()
         recent_logs = Log.query.order_by(Log.timestamp.desc()).limit(100).all()
         if not recent_logs:
-            return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url='', log_table='<p>Không có dữ liệu log để phân tích.</p>')
-        analysis_df = run_ai_predictions(recent_logs) 
-        df_display = pd.DataFrame([{'id': log.id, 'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path, 'payload': log.payload} for log in recent_logs])
+            return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url='', log_table='<p>Không có dữ liệu log để phân tích.</p>') 
+        analysis_df = run_ai_predictions(recent_logs)
+        df_display = pd.DataFrame([{'id': log.id, 'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path, 'payload': log.payload} for log in recent_logs])       
         if not analysis_df.empty:
             df_display = df_display.merge(analysis_df, on='id', how='left').fillna('N/A')
         else:
@@ -135,10 +139,7 @@ class MyAdminIndexView(AdminIndexView):
             log_table_html = df_anomalous[columns_to_display].to_html(classes='table table-striped table-sm', index=False, border=0, justify='left')
         else:
             log_table_html = "<p>✅ Không phát hiện hành vi bất thường nào trong các truy cập gần đây.</p>"
-        return self.render('admin/admin_dashboard.html',
-                           total_requests=total_requests,
-                           chart_url=chart_url,
-                           log_table=log_table_html)
+        return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url=chart_url, log_table=log_table_html)
                            
     @expose('/export-logs')
     def export_logs(self):
