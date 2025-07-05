@@ -14,10 +14,25 @@ import matplotlib.pyplot as plt
 import io
 import base64
 
+def run_ai_predictions(logs):
+    try:
+        model = load_model('model/ai_ids_model.h5')
+        vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
+    except FileNotFoundError:
+        return pd.DataFrame()
+    if not logs:
+        return pd.DataFrame()
+    df = pd.DataFrame([{'id': log.id, 'path': log.path, 'payload': log.payload} for log in logs])
+    df['text_features'] = df['path'].fillna('') + ' ' + df['payload'].fillna('')
+    X_new = vectorizer.transform(df['text_features'])
+    X_new_dense = X_new.toarray()
+    predictions = model.predict(X_new_dense, verbose=0)
+    df['AI_Phân_Tích'] = np.where(predictions.flatten() > 0.5, '❌ Bất thường', '✅ Bình thường')
+    return df[['id', 'AI_Phân_Tích']].set_index('id')
+
 class ProtectedModelView(ModelView):
     def is_accessible(self):
         return session.get('is_admin') is True
-
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for('main.home'))
     
@@ -27,7 +42,6 @@ class UserAdminView(ProtectedModelView):
     form_extra_fields = {
         'password_new': PasswordField('Mật khẩu mới (để trống nếu không đổi)')
     }
-
     def on_model_change(self, form, model, is_created):
         if 'password_new' in form and form.password_new.data:
             model.set_password(form.password_new.data)
@@ -56,71 +70,79 @@ class OrderAdminView(ModelView):
     column_filters = ['status', 'date_ordered']
     column_default_sort = ('date_ordered', True)
     
+class LogAdminView(ProtectedModelView):
+    list_template = 'admin/custom_log_list.html'
+    column_default_sort = ('timestamp', True)
+    can_edit = False
+    can_create = False
+    can_delete = True
+    
+    column_list = ['timestamp', 'ip', 'method', 'path', 'payload', 'ai_analysis']
+    column_labels = {'ai_analysis': 'AI Phân Tích'}
+
+    def get_list(self, page, sort_column, sort_desc, search, filters, execute=True, page_size=10):
+        count, data = super().get_list(page, sort_column, sort_desc, search, filters, execute, page_size)
+        analysis_df = run_ai_predictions(data)
+        if not analysis_df.empty:
+            for item in data:
+                item.ai_analysis = analysis_df.loc[item.id]['AI_Phân_Tích'] if item.id in analysis_df.index else 'N/A'
+        else:
+            for item in data:
+                item.ai_analysis = 'Model not available'
+        return count, data
+
 def parse_log_data():
     all_logs = Log.query.all()
     if not all_logs:
         return pd.DataFrame()
-    logs_data = [{'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path} for log in all_logs]
+    logs_data = [{'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path, 'payload': log.payload} for log in all_logs]
     return pd.DataFrame(logs_data)
-    
+
 class MyAdminIndexView(AdminIndexView):
     def is_accessible(self):
-        """Kiểm tra xem người dùng có phải là admin không."""
         return session.get('is_admin') is True
 
     def inaccessible_callback(self, name, **kwargs):
-        """Nếu không phải admin, chuyển hướng về trang chủ."""
         return redirect(url_for('main.home'))
+
     @expose('/')
     def index(self):
-        try:
-            model = load_model('model/ai_ids_model.h5')
-            enc_ip = joblib.load('model/ip_encoder.pkl')
-            enc_method = joblib.load('model/method_encoder.pkl')
-            enc_path = joblib.load('model/path_encoder.pkl')
-        except FileNotFoundError:
-            model = None
-            return self.render('admin/admin_dashboard.html', total_requests=0, chart_url='', log_table='<p>Lỗi: Không tìm thấy tệp model hoặc encoder.</p>')
-        all_logs = Log.query.order_by(Log.timestamp.desc()).limit(1000).all()
-        if not all_logs:
-            return self.render('admin/admin_dashboard.html', total_requests=Log.query.count(), chart_url='', log_table='<p>Không có dữ liệu log để phân tích.</p>')
-        all_logs.reverse()
-        df = pd.DataFrame([{'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path} for log in all_logs])
-        df_encoded = df.copy()
-
-        def safe_transform(encoder, series):
-            known_values = encoder.classes_
-            return series.apply(lambda x: encoder.transform([x])[0] if x in known_values else np.nan)
-        df_encoded['ip'] = safe_transform(enc_ip, df_encoded['ip'])
-        df_encoded['method'] = safe_transform(enc_method, df_encoded['method'])
-        df_encoded['path'] = safe_transform(enc_path, df_encoded['path'])
-        df['AI_Phân_Tích'] = np.where(df_encoded.isnull().any(axis=1), '❓ Mới', '')
-        df_to_predict = df_encoded.dropna()
-        if not df_to_predict.empty:
-            input_data = df_to_predict[['ip', 'method', 'path']].to_numpy()
-            predictions = model.predict(input_data, verbose=0)
-            predicted_labels = np.where(predictions.flatten() > 0.5, '❌ Bất thường', '✅ Bình thường')
-            df.loc[df_to_predict.index, 'AI_Phân_Tích'] = predicted_labels
         total_requests = Log.query.count()
-        requests_by_method = df['method'].value_counts()
+        recent_logs = Log.query.order_by(Log.timestamp.desc()).limit(100).all()
+        if not recent_logs:
+            return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url='', log_table='<p>Không có dữ liệu log để phân tích.</p>')
+        analysis_df = run_ai_predictions(recent_logs) 
+        df_display = pd.DataFrame([{'id': log.id, 'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path, 'payload': log.payload} for log in recent_logs])
+        if not analysis_df.empty:
+            df_display = df_display.merge(analysis_df, on='id', how='left').fillna('N/A')
+        else:
+            df_display['AI_Phân_Tích'] = 'Model not available'
+        requests_by_method = df_display['method'].value_counts()
         plt.figure(figsize=(8, 4))
         requests_by_method.plot(kind='bar', color='skyblue')
-        plt.title('Phân tích 1000 truy cập gần nhất')
+        plt.title('Phân tích phương thức trong 100 truy cập gần nhất')
         plt.ylabel('Số lượng')
+        plt.xticks(rotation=0)
         plt.tight_layout()
         img = io.BytesIO()
         plt.savefig(img, format='png')
         img.seek(0)
         chart_url = base64.b64encode(img.getvalue()).decode()
         plt.close()
-        columns = ['timestamp', 'ip', 'method', 'path', 'AI_Phân_Tích']
-        log_table_html = df.tail(10)[columns].to_html(classes='table table-striped', index=False, border=0)
+        df_anomalous = df_display[df_display['AI_Phân_Tích'] == '❌ Bất thường']
+        columns_to_display = ['timestamp', 'ip', 'method', 'path', 'payload', 'AI_Phân_Tích']
+        if not df_anomalous.empty:
+            log_table_html = df_anomalous[columns_to_display].to_html(classes='table table-striped table-sm', index=False, border=0, justify='left')
+        else:
+            log_table_html = "<p>✅ Không phát hiện hành vi bất thường nào trong các truy cập gần đây.</p>"
         return self.render('admin/admin_dashboard.html',
                            total_requests=total_requests,
                            chart_url=chart_url,
-                           log_table=log_table_html) 
+                           log_table=log_table_html)
+                           
     @expose('/export-logs')
     def export_logs(self):
+        """Xử lý việc xuất toàn bộ log ra file CSV hoặc Excel."""
         if not session.get('is_admin'):
             return "Access Denied!", 403
         df = parse_log_data()

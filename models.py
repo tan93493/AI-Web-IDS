@@ -125,6 +125,7 @@ class Log(db.Model):
     ip = db.Column(db.String(45))
     method = db.Column(db.String(10))
     path = db.Column(db.String(200))
+    payload = db.Column(db.Text, nullable=True)
     
     def __repr__(self):
         return f'<Log from {self.ip} at {self.timestamp}>'

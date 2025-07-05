@@ -1,4 +1,19 @@
-{% extends 'admin/master.html' %}{% block body %}
+{% extends 'admin/master.html' %}
+{% block head_css %}
+    {{ super() }}
+    <style>
+        .log-table table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        .log-table td,
+        .log-table th {
+            word-wrap: break-word;
+            white-space: normal !important;
+        }
+    </style>
+{% endblock %}
+{% block body %}
 <div class="container-fluid"> 
     <h2>Access Analysis</h2>
     <div class="card my-4">
@@ -19,11 +34,10 @@
         <div class="card-header">
             AI analyzes access behavior (last 10 logs):
         </div>
-        <div class="card-body table-responsive">
+        <div class="card-body table-responsive log-table">
             {{ log_table | safe }}
         </div>
         <div class="card-footer">
-            <!-- SỬA url_for('export_logs') thành url_for('admin.export_logs') -->
             <form method="GET" action="{{ url_for('admin.export_logs') }}" class="form-inline">
                 <div class="form-group mb-2">
                     <label for="filetype" class="mr-2">Select export format:</label>

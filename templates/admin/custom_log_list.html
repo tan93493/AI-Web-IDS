@@ -1,0 +1,15 @@
+{% extends 'admin/model/list.html' %}
+{% block head_css %}
+    {{ super() }}
+    <style>
+        .table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        .table td,
+        .table th {
+            word-wrap: break-word;
+            white-space: normal !important; 
+        }
+    </style>
+{% endblock %}
