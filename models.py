@@ -18,8 +18,7 @@ class User(db.Model):
     password_hash = db.Column(db.String(256), nullable=False)
     first_name = db.Column(db.String(50))
     last_name = db.Column(db.String(50))
-    is_admin = db.Column(db.Boolean, default=False)
-    
+    is_admin = db.Column(db.Boolean, default=False)  
     orders = db.relationship('Order', backref='customer', lazy='dynamic')
 
     def set_password(self, password):
@@ -35,7 +34,6 @@ class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     slug = db.Column(db.String(100), nullable=False, unique=True)
-    
     parent_id = db.Column(db.Integer, db.ForeignKey('category.id'), index=True)
     parent = db.relationship('Category', remote_side=[id], backref='sub_categories')
 
@@ -51,9 +49,7 @@ class Product(db.Model):
     stock = db.Column(db.Integer, default=0) 
     is_available = db.Column(db.Boolean, default=True)
     date_added = db.Column(db.DateTime, default=datetime.datetime.utcnow)
-    
-    categories = db.relationship('Category', secondary=product_categories,
-                                 lazy='subquery', backref=db.backref('products', lazy=True))
+    categories = db.relationship('Category', secondary=product_categories,lazy='subquery', backref=db.backref('products', lazy=True))
 
     def __repr__(self):
         return f'<Product {self.name}>'
@@ -65,8 +61,7 @@ class Order(db.Model):
     status = db.Column(db.String(50), default='pending', nullable=False)
     date_ordered = db.Column(db.DateTime(timezone=True), default=datetime.datetime.utcnow)
     transaction_id = db.Column(db.String(100), unique=True, nullable=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-    
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id')) 
     items = db.relationship('OrderItem', backref='order', lazy=True, cascade="all, delete-orphan")
     checkout_info = db.relationship('CheckOut', backref='order', uselist=False, cascade="all, delete-orphan")
 
@@ -94,10 +89,8 @@ class Order(db.Model):
 class OrderItem(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     quantity = db.Column(db.Integer, nullable=False, default=1)
-    
     product_id = db.Column(db.Integer, db.ForeignKey('product.id'), nullable=False)
     order_id = db.Column(db.Integer, db.ForeignKey('orders.id'), nullable=False)
-    
     product = db.relationship('Product')
 
     @property
@@ -112,7 +105,6 @@ class CheckOut(db.Model):
     address = db.Column(db.String(200), nullable=False)
     phone = db.Column(db.String(20))
     note = db.Column(db.String(250))
-
     order_id = db.Column(db.Integer, db.ForeignKey('orders.id'), nullable=False, unique=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     
