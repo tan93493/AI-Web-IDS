@@ -1,6 +1,6 @@
 # admin_site/views.py
 from flask_admin.contrib.sqla import ModelView
-from models import Category, Log
+from models import Category, Log, BlacklistedIP
 from flask import session, redirect, url_for, render_template, request, send_file
 from wtforms.fields import PasswordField
 from flask_admin import AdminIndexView, expose
@@ -13,6 +13,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import io
 import base64
+import datetime
 
 def run_ai_predictions(logs):
     try:
@@ -76,6 +77,21 @@ class OrderAdminView(ModelView):
     column_filters = ['status', 'date_ordered']
     column_default_sort = ('date_ordered', True)
     
+class BlacklistedIPAdminView(ProtectedModelView):
+    """View để quản lý các IP bị chặn."""
+    column_list = ('ip_address', 'timestamp', 'expires_at', 'reason')
+    column_labels = {
+        'ip_address': 'IP Address',
+        'timestamp': 'Timestamp',
+        'expires_at': 'Expires At',
+        'reason': 'Reason'
+    }
+    # Không cho phép tạo mới hoặc sửa, chỉ có thể xóa (gỡ chặn)
+    can_create = False
+    can_edit = False
+    can_delete = True 
+    column_default_sort = ('timestamp', True)
+    
 class LogAdminView(ProtectedModelView):
     list_template = 'admin/custom_log_list.html'
     column_default_sort = ('timestamp', True)
@@ -106,6 +122,7 @@ def parse_log_data():
 class MyAdminIndexView(AdminIndexView):
     def is_accessible(self):
         return session.get('is_admin') is True
+        
     def inaccessible_callback(self, name, **kwargs):
         return redirect(url_for('main.home'))
 
@@ -113,33 +130,47 @@ class MyAdminIndexView(AdminIndexView):
     def index(self):
         total_requests = Log.query.count()
         recent_logs = Log.query.order_by(Log.timestamp.desc()).limit(100).all()
+
+        # Lấy danh sách các IP đang bị chặn (chưa hết hạn)
+        current_time = datetime.datetime.utcnow()
+        blacklisted_ips = BlacklistedIP.query.filter(BlacklistedIP.expires_at > current_time).order_by(BlacklistedIP.expires_at.desc()).all()
+        
         if not recent_logs:
-            return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url='', log_table='<p>Không có dữ liệu log để phân tích.</p>') 
+            return self.render(
+                'admin/admin_dashboard.html', 
+                total_requests=total_requests, 
+                chart_url='', 
+                log_table='<p>✅ Không phát hiện hành vi bất thường nào trong các truy cập gần đây.</p>',
+                blacklisted_ips=blacklisted_ips # Gửi cả khi không có log
+            )
+            
         analysis_df = run_ai_predictions(recent_logs)
-        df_display = pd.DataFrame([{'id': log.id, 'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path, 'payload': log.payload} for log in recent_logs])       
+        df_display = pd.DataFrame([{'id': log.id, 'timestamp': log.timestamp, 'ip': log.ip, 'method': log.method, 'path': log.path} for log in recent_logs])      
+        
         if not analysis_df.empty:
             df_display = df_display.merge(analysis_df, on='id', how='left').fillna('N/A')
         else:
             df_display['AI_Phân_Tích'] = 'Model not available'
-        requests_by_method = df_display['method'].value_counts()
-        plt.figure(figsize=(8, 4))
-        requests_by_method.plot(kind='bar', color='skyblue')
-        plt.title('Phân tích phương thức trong 100 truy cập gần nhất')
-        plt.ylabel('Số lượng')
-        plt.xticks(rotation=0)
-        plt.tight_layout()
+        
         img = io.BytesIO()
         plt.savefig(img, format='png')
         img.seek(0)
-        chart_url = base64.b64encode(img.getvalue()).decode()
         plt.close()
+        
         df_anomalous = df_display[df_display['AI_Phân_Tích'] == '❌ Bất thường']
-        columns_to_display = ['timestamp', 'ip', 'method', 'path', 'payload', 'AI_Phân_Tích']
+        columns_to_display = ['timestamp', 'ip', 'method', 'path', 'AI_Phân_Tích']
+        
         if not df_anomalous.empty:
             log_table_html = df_anomalous[columns_to_display].to_html(classes='table table-striped table-sm', index=False, border=0, justify='left')
         else:
             log_table_html = "<p>✅ Không phát hiện hành vi bất thường nào trong các truy cập gần đây.</p>"
-        return self.render('admin/admin_dashboard.html', total_requests=total_requests, chart_url=chart_url, log_table=log_table_html)
+            
+        return self.render(
+            'admin/admin_dashboard.html', 
+            total_requests=total_requests, 
+            log_table=log_table_html,
+            blacklisted_ips=blacklisted_ips
+        )
                            
     @expose('/export-logs')
     def export_logs(self):

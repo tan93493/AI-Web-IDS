@@ -1,53 +1,134 @@
 {% extends 'admin/master.html' %}
+
 {% block head_css %}
     {{ super() }}
     <style>
-        .log-table table {
+        /* --- BẮT ĐẦU CSS CHO LAYOUT MỘT KHUNG HÌNH --- */
+        .dashboard-container {
+            display: flex;
+            flex-direction: column;
+            /* Chiều cao bằng 100% viewport trừ đi chiều cao navbar (56px là giá trị phổ biến) */
+            height: calc(100vh - 56px); 
+            padding: 1rem;
+            overflow: hidden; /* Ngăn trang chính cuộn */
+        }
+        .top-row {
+            flex-shrink: 0; /* Hàng trên cùng sẽ không bị co lại */
+        }
+        .main-content-row {
+            flex-grow: 1; /* Hàng chính sẽ lấp đầy không gian dọc còn lại */
+            min-height: 0; /* Rất quan trọng để thanh cuộn của các phần tử con hoạt động đúng */
+        }
+        .main-content-row .col-lg-6 {
+            display: flex;
+            flex-direction: column;
+        }
+        .main-content-row .card {
+            flex-grow: 1; /* Thẻ card sẽ co giãn để lấp đầy cột */
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .main-content-row .card .card-body {
+            flex-grow: 1; /* Phần thân card sẽ co giãn */
+            overflow-y: auto; /* Thêm thanh cuộn dọc tự động cho thân card */
+        }
+        /* --- KẾT THÚC CSS CHO LAYOUT MỚI --- */
+        
+        /* Các style cũ để giữ giao diện */
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .total-visits-card {
+            border: 2px solid #007bff;
+        }
+        .total-visits-card h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #007bff;
+        }
+        .log-table table, .table-hover {
             table-layout: fixed;
             width: 100%;
         }
-        .log-table td,
-        .log-table th {
+        .log-table td, .log-table th, .table-hover td, .table-hover th {
             word-wrap: break-word;
             white-space: normal !important;
         }
     </style>
 {% endblock %}
+
 {% block body %}
-<div class="container-fluid"> 
-    <h2>Access Analysis</h2>
-    <div class="card my-4">
-        <div class="card-body">
-            <h3>Total visits: {{ total_requests }}</h3>
-        </div>
-    </div>  
-    <div class="card my-4">
-        <div class="card-header">
-            Access graph by method:
-        </div>
-        <div class="card-body text-center">
-            <img src="data:image/png;base64,{{ chart_url }}" alt="Chart" class="img-fluid">
+<div class="dashboard-container">
+    <!-- HÀNG TRÊN CÙNG: TIÊU ĐỀ & TỔNG TRUY CẬP -->
+    <div class="top-row">
+        <h2 class="my-2">Bảng Điều Khiển Phân Tích Truy Cập</h2>
+        <div class="row justify-content-center text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card total-visits-card my-2">
+                    <div class="card-body py-2">
+                        <p class="card-title mb-1">TỔNG LƯỢT TRUY CẬP</p>
+                        <h3>{{ total_requests }}</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="card my-4">
-        <div class="card-header">
-            AI analyzes access behavior (last 10 logs):
-        </div>
-        <div class="card-body table-responsive log-table">
-            {{ log_table | safe }}
-        </div>
-        <div class="card-footer">
-            <form method="GET" action="{{ url_for('admin.export_logs') }}" class="form-inline">
-                <div class="form-group mb-2">
-                    <label for="filetype" class="mr-2">Select export format:</label>
-                    <select name="filetype" id="filetype" class="form-control mr-2">
-                        <option value="csv">CSV</option>
-                        <option value="excel">Excel (.xlsx)</option>
-                    </select>
+    <!-- HÀNG NỘI DUNG CHÍNH: HAI BẢNG -->
+    <div class="row mt-3 main-content-row">
+        <!-- Cột danh sách đen -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title mb-0"><i class="fas fa-shield-alt mr-2"></i>Danh sách IP đang bị chặn</h3>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Export logs</button>
-            </form>
+                <div class="card-body table-responsive p-0">
+                    {% if blacklisted_ips %}
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Địa chỉ IP</th>
+                                    <th>Lý do chặn</th>
+                                    <th style="width: 30%;">Hết hạn (UTC)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for ip in blacklisted_ips %}
+                                <tr>
+                                    <td><strong>{{ ip.ip_address }}</strong></td>
+                                    <td>{{ ip.reason }}</td>
+                                    <td>{{ ip.expires_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    {% else %}
+                        <div class="p-3">
+                            <p class="mb-0">✅ Hiện tại không có địa chỉ IP nào bị chặn.</p>
+                        </div>
+                    {% endif %}
+                </div>
+                 <div class="card-footer text-right">
+                    <a href="{{ url_for('blacklistedip.index_view') }}" class="btn btn-sm btn-light">Quản lý đầy đủ &raquo;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột các truy cập bất thường -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h3 class="card-title mb-0">Nhật ký truy cập bất thường (AI)</h3>
+                </div>
+                <div class="card-body table-responsive log-table p-0">
+                    {{ log_table | safe }}
+                </div>
+                <div class="card-footer text-right">
+                    <a href="{{ url_for('log.index_view') }}" class="btn btn-sm btn-light">Xem tất cả Log &raquo;</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

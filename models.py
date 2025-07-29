@@ -6,6 +6,36 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from extensions import db
 import secrets
 
+class Log(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    timestamp = db.Column(db.DateTime(timezone=True), server_default=func.now())
+    ip = db.Column(db.String(45))
+    method = db.Column(db.String(10))
+    path = db.Column(db.String(200))
+    payload = db.Column(db.Text, nullable=True)
+    
+    def __repr__(self):
+        return f'<Log from {self.ip} at {self.timestamp}>'
+
+class IPAttackTracker(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    ip_address = db.Column(db.String(45), unique=True, nullable=False, index=True)
+    attack_count = db.Column(db.Integer, default=1, nullable=False)
+    last_attack_time = db.Column(db.DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+    def __repr__(self):
+        return f'<IPAttackTracker {self.ip_address} - {self.attack_count} attacks>'
+
+class BlacklistedIP(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    ip_address = db.Column(db.String(45), unique=True, nullable=False, index=True)
+    timestamp = db.Column(db.DateTime(timezone=True), server_default=func.now())
+    expires_at = db.Column(db.DateTime(timezone=True), nullable=False)
+    reason = db.Column(db.String(255), nullable=True)
+
+    def __repr__(self):
+        return f'<BlacklistedIP {self.ip_address} until {self.expires_at}>'
+
 product_categories = db.Table('product_categories',
     db.Column('product_id', db.Integer, db.ForeignKey('product.id'), primary_key=True),
     db.Column('category_id', db.Integer, db.ForeignKey('category.id'), primary_key=True)
@@ -111,13 +141,4 @@ class CheckOut(db.Model):
     def __repr__(self):
         return f'<CheckOut for Order ID: {self.order_id}>'
 
-class Log(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    timestamp = db.Column(db.DateTime(timezone=True), server_default=func.now())
-    ip = db.Column(db.String(45))
-    method = db.Column(db.String(10))
-    path = db.Column(db.String(200))
-    payload = db.Column(db.Text, nullable=True)
-    
-    def __repr__(self):
-        return f'<Log from {self.ip} at {self.timestamp}>'
+
